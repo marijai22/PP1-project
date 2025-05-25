@@ -1,0 +1,225 @@
+INFO  20:58:39,185 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:58:39,254 - #2 program
+INFO  20:58:39,254 - #43 Test
+INFO  20:58:39,254 - #5 const
+INFO  20:58:39,256 - #43 int
+INFO  20:58:39,256 - #43 pi
+INFO  20:58:39,256 - #7 =
+INFO  20:58:39,256 - #44 3
+INFO  20:58:39,257 - #8 ,
+INFO  20:58:39,258 - #43 g
+INFO  20:58:39,258 - #7 =
+INFO  20:58:39,258 - #44 11
+INFO  20:58:39,258 - #6 ;
+INFO  20:58:39,259 - #43 char
+INFO  20:58:39,260 - #43 x
+INFO  20:58:39,260 - #8 ,
+INFO  20:58:39,260 - #43 y
+INFO  20:58:39,260 - #9 [
+INFO  20:58:39,260 - #10 ]
+INFO  20:58:39,260 - #6 ;
+INFO  20:58:39,261 - #5 const
+INFO  20:58:39,262 - #43 bool
+INFO  20:58:39,262 - #43 t
+INFO  20:58:39,266 - #7 =
+INFO  20:58:39,266 - #45 1
+INFO  20:58:39,266 - #6 ;
+INFO  20:58:39,266 - #3 {
+INFO  20:58:39,266 - #11 void
+INFO  20:58:39,267 - #43 main
+INFO  20:58:39,268 - #12 (
+INFO  20:58:39,268 - #13 )
+INFO  20:58:39,269 - #43 int
+INFO  20:58:39,271 - #43 a
+INFO  20:58:39,271 - #8 ,
+INFO  20:58:39,272 - #43 b
+INFO  20:58:39,272 - #9 [
+INFO  20:58:39,272 - #10 ]
+INFO  20:58:39,272 - #6 ;
+INFO  20:58:39,272 - #43 int
+INFO  20:58:39,272 - #43 x
+INFO  20:58:39,273 - #9 [
+INFO  20:58:39,273 - #10 ]
+INFO  20:58:39,273 - #8 ,
+INFO  20:58:39,273 - #43 y
+INFO  20:58:39,273 - #6 ;
+INFO  20:58:39,273 - #43 char
+INFO  20:58:39,273 - #43 eol
+INFO  20:58:39,273 - #6 ;
+INFO  20:58:39,273 - #3 {
+INFO  20:58:39,273 - #43 a
+INFO  20:58:39,274 - #7 =
+INFO  20:58:39,274 - #44 3
+INFO  20:58:39,275 - #22 +
+INFO  20:58:39,276 - #43 b
+INFO  20:58:39,278 - #6 ;
+INFO  20:58:39,278 - #4 }
+INFO  20:58:39,278 - #4 }
+INFO  20:58:39,287 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_con(
+        ConVarDecList_e(
+        ) [ConVarDecList_e]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pi
+            Const_n(
+             3
+            ) [Const_n]
+          ) [ConstDecl]
+          ConstDeclMore_comma(
+            ConstDecl(
+             g
+              Const_n(
+               11
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_e(
+            ) [ConstDeclMore_e]
+          ) [ConstDeclMore_comma]
+        ) [ConstDeclList]
+      ) [ConVarDecList_con]
+      VarDeclList_v(
+        Type(
+         char
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_arr(
+           y
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_ass(
+            Designator_v(
+             a
+            ) [Designator_v]
+            Assignop(
+            ) [Assignop]
+            Expr_a(
+              AddopTermList_at(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_n(
+                         3
+                        ) [FactorList_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+                Addop_plus(
+                ) [Addop_plus]
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_var(
+                        Designator_v(
+                         b
+                        ) [Designator_v]
+                      ) [FactorList_var]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_at]
+            ) [Expr_a]
+          ) [DesignatorStatement_ass]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  20:58:39,288 - =====================================================================
+ERROR 20:58:39,295 - Addop operacija sa ne int vrednostima.  na liniji 13
+INFO  20:58:39,295 - =====================================================================
+ERROR 20:58:39,295 - Parsiranje NIJE uspesno zavrseno!

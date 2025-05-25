@@ -1,0 +1,117 @@
+INFO  11:30:51,878 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:30:51,946 - #2 program
+INFO  11:30:51,946 - #43 Test
+INFO  11:30:51,946 - #3 {
+INFO  11:30:51,948 - #11 void
+INFO  11:30:51,949 - #43 main
+INFO  11:30:51,949 - #12 (
+INFO  11:30:51,950 - #13 )
+INFO  11:30:51,951 - #3 {
+INFO  11:30:51,952 - #43 a
+INFO  11:30:51,953 - #7 =
+INFO  11:30:51,954 - #43 b
+INFO  11:30:51,955 - #6 ;
+INFO  11:30:51,957 - #4 }
+INFO  11:30:51,958 - #43 int
+INFO  11:30:51,959 - #43 f
+INFO  11:30:51,960 - #12 (
+INFO  11:30:51,960 - #13 )
+INFO  11:30:51,961 - #3 {
+INFO  11:30:51,961 - #15 return
+INFO  11:30:51,961 - #45 1
+INFO  11:30:51,961 - #6 ;
+INFO  11:30:51,962 - #4 }
+INFO  11:30:51,962 - #4 }
+INFO  11:30:51,968 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_e(
+  ) [ConVarDecList_e]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               a
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_var(
+                          Designator(
+                           b
+                            DesignExpMore_e(
+                            ) [DesignExpMore_e]
+                          ) [Designator]
+                        ) [FactorSub_var]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [ReturnType_t]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_res(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorSub_b(
+                     1
+                    ) [FactorSub_b]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_res]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  11:30:51,968 - =====================================================================
+ERROR 11:30:51,979 - Hello Program na liniji 1
+INFO  11:30:51,979 - =====================================================================
+ERROR 11:30:51,980 - Parsiranje NIJE uspesno zavrseno!

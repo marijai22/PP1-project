@@ -1,0 +1,138 @@
+INFO  19:03:33,897 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:03:33,965 - #2 program
+INFO  19:03:33,966 - #43 Test
+INFO  19:03:33,966 - #5 const
+INFO  19:03:33,967 - #43 Test
+INFO  19:03:33,968 - #43 pi
+INFO  19:03:33,969 - #7 =
+INFO  19:03:33,969 - #44 3
+INFO  19:03:33,969 - #6 ;
+INFO  19:03:33,971 - #3 {
+INFO  19:03:33,972 - #11 void
+INFO  19:03:33,973 - #43 main
+INFO  19:03:33,973 - #12 (
+INFO  19:03:33,974 - #13 )
+INFO  19:03:33,975 - #3 {
+INFO  19:03:33,976 - #43 a
+INFO  19:03:33,977 - #7 =
+INFO  19:03:33,980 - #43 b
+INFO  19:03:33,981 - #6 ;
+INFO  19:03:33,985 - #4 }
+INFO  19:03:33,985 - #43 int
+INFO  19:03:33,987 - #43 f
+INFO  19:03:33,988 - #12 (
+INFO  19:03:33,989 - #13 )
+INFO  19:03:33,989 - #3 {
+INFO  19:03:33,989 - #15 return
+INFO  19:03:33,989 - #45 1
+INFO  19:03:33,989 - #6 ;
+INFO  19:03:33,989 - #4 }
+INFO  19:03:33,989 - #4 }
+INFO  19:03:33,995 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    ConstDeclList(
+      Type(
+       Test
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_n(
+         3
+        ) [Const_n]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               a
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_var(
+                          Designator(
+                           b
+                            DesignExpMore_e(
+                            ) [DesignExpMore_e]
+                          ) [Designator]
+                        ) [FactorSub_var]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [ReturnType_t]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_res(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorSub_b(
+                     1
+                    ) [FactorSub_b]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_res]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:03:33,995 - =====================================================================
+ERROR 19:03:34,003 - Neadekvatni tip podatka: Test na liniji 3
+INFO  19:03:34,004 - =====================================================================
+ERROR 19:03:34,004 - Parsiranje NIJE uspesno zavrseno!

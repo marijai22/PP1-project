@@ -1,0 +1,135 @@
+INFO  21:31:43,023 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:31:43,091 - #2 program
+INFO  21:31:43,092 - #43 Test
+INFO  21:31:43,092 - #5 const
+INFO  21:31:43,093 - #43 int
+INFO  21:31:43,094 - #43 pi
+INFO  21:31:43,094 - #7 =
+INFO  21:31:43,094 - #44 3
+INFO  21:31:43,095 - #8 ,
+INFO  21:31:43,096 - #43 g
+INFO  21:31:43,096 - #7 =
+INFO  21:31:43,096 - #44 11
+INFO  21:31:43,096 - #6 ;
+INFO  21:31:43,097 - #43 char
+INFO  21:31:43,098 - #43 x
+INFO  21:31:43,098 - #8 ,
+INFO  21:31:43,098 - #43 y
+INFO  21:31:43,098 - #9 [
+INFO  21:31:43,098 - #10 ]
+INFO  21:31:43,098 - #6 ;
+INFO  21:31:43,099 - #43 set
+INFO  21:31:43,100 - #43 s1
+INFO  21:31:43,100 - #6 ;
+INFO  21:31:43,104 - #5 const
+INFO  21:31:43,104 - #43 bool
+INFO  21:31:43,104 - #43 t
+INFO  21:31:43,104 - #7 =
+INFO  21:31:43,105 - #45 1
+INFO  21:31:43,105 - #6 ;
+INFO  21:31:43,105 - #3 {
+INFO  21:31:43,105 - #43 int
+INFO  21:31:43,107 - #43 main
+INFO  21:31:43,107 - #12 (
+INFO  21:31:43,107 - #13 )
+INFO  21:31:43,108 - #3 {
+INFO  21:31:43,109 - #4 }
+INFO  21:31:43,110 - #4 }
+INFO  21:31:43,116 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         set
+        ) [Type]
+        VarDecl_var(
+         s1
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         main
+        ) [ReturnType_t]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:31:43,116 - =====================================================================
+ERROR 21:31:43,125 - Program nema adekvatnu main metodu. na liniji 1
+INFO  21:31:43,125 - =====================================================================
+ERROR 21:31:43,126 - Parsiranje NIJE uspesno zavrseno!

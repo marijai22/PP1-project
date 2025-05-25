@@ -1,0 +1,22 @@
+INFO  15:16:08,556 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:16:09,181 - #2 program
+INFO  15:16:09,181 - #43 test302
+INFO  15:16:09,181 - #43 int
+INFO  15:16:09,192 - #43 a
+INFO  15:16:09,200 - #26 .
+ERROR 15:16:09,200 - 
+Sintaksna greska na liniji 2
+INFO  15:16:09,201 - #8 ,
+INFO  15:16:09,201 - #43 b
+INFO  15:16:09,201 - #8 ,
+INFO  15:16:09,202 - #43 c
+INFO  15:16:09,202 - #6 ;
+INFO  15:16:09,203 - #3 {
+INFO  15:16:09,203 - #11 void
+INFO  15:16:09,203 - #43 main
+INFO  15:16:09,203 - #12 (
+INFO  15:16:09,203 - #13 )
+INFO  15:16:09,204 - #3 {
+INFO  15:16:09,204 - #4 }
+INFO  15:16:09,204 - #4 }
+ERROR 15:16:09,204 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9

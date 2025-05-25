@@ -1,0 +1,142 @@
+INFO  23:40:04,722 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:40:04,785 - #2 program
+INFO  23:40:04,786 - #43 test302
+INFO  23:40:04,786 - #43 int
+INFO  23:40:04,787 - #43 i
+INFO  23:40:04,788 - #6 ;
+INFO  23:40:04,789 - #3 {
+INFO  23:40:04,789 - #11 void
+INFO  23:40:04,790 - #43 main
+INFO  23:40:04,790 - #12 (
+INFO  23:40:04,790 - #43 int
+INFO  23:40:04,790 - #43 a
+INFO  23:40:04,790 - #8 ,
+INFO  23:40:04,790 - #43 int
+INFO  23:40:04,790 - #43 b
+INFO  23:40:04,791 - #8 ,
+INFO  23:40:04,791 - #43 int
+INFO  23:40:04,791 - #43 c
+INFO  23:40:04,791 - #13 )
+INFO  23:40:04,792 - #3 {
+INFO  23:40:04,793 - #43 i
+INFO  23:40:04,794 - #7 =
+INFO  23:40:04,796 - #44 2
+INFO  23:40:04,798 - #6 ;
+INFO  23:40:04,802 - #27 if
+INFO  23:40:04,802 - #12 (
+INFO  23:40:04,802 - #43 i
+INFO  23:40:04,802 - #7 =
+ERROR 23:40:04,803 - 
+Sintaksna greska na liniji 7
+INFO  23:40:04,803 - #44 2
+INFO  23:40:04,803 - #13 )
+INFO  23:40:04,803 - #17 print
+INFO  23:40:04,804 - #12 (
+INFO  23:40:04,804 - #20 -
+ERROR 23:40:04,809 - Oporavak od greske u DS. Linija: 7
+INFO  23:40:04,810 - #44 6
+INFO  23:40:04,810 - #13 )
+INFO  23:40:04,810 - #6 ;
+INFO  23:40:04,810 - #4 }
+INFO  23:40:04,811 - #4 }
+INFO  23:40:04,818 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_i(
+      Type(
+       int
+      ) [Type]
+     i
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_i]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_fi(
+          Type(
+           int
+          ) [Type]
+         a
+          FormParsMore_fi(
+            Type(
+             int
+            ) [Type]
+           b
+            FormParsMore_fi(
+              Type(
+               int
+              ) [Type]
+             c
+              FormParsMore_e(
+              ) [FormParsMore_e]
+            ) [FormParsMore_fi]
+          ) [FormParsMore_fi]
+        ) [FormPars_fi]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               i
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_n(
+                         2
+                        ) [FactorSub_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_if(
+          Condition_err(
+          ) [Condition_err]
+          Statement_pre(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_m(
+                      FactorSub_n(
+                       6
+                      ) [FactorSub_n]
+                    ) [Factor_m]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_pre]
+          ElseStatement_e(
+          ) [ElseStatement_e]
+        ) [Statement_if]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  23:40:04,819 - =====================================================================
+ERROR 23:40:04,819 - Parsiranje NIJE uspesno zavrseno!

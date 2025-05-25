@@ -1,0 +1,64 @@
+INFO  19:43:34,232 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:43:34,306 - #2 program
+INFO  19:43:34,306 - #43 test302
+INFO  19:43:34,306 - #3 {
+INFO  19:43:34,307 - #11 void
+INFO  19:43:34,307 - #43 main
+INFO  19:43:34,308 - #12 (
+INFO  19:43:34,308 - #13 )
+INFO  19:43:34,309 - #43 int
+INFO  19:43:34,311 - #43 bodovi
+INFO  19:43:34,311 - #6 ;
+INFO  19:43:34,314 - #3 {
+INFO  19:43:34,315 - #43 bodovi
+INFO  19:43:34,316 - #7 =
+INFO  19:43:34,319 - #44 2
+INFO  19:43:34,321 - #23 *
+INFO  19:43:34,321 - #6 ;
+ERROR 19:43:34,322 - 
+Sintaksna greska na liniji 7
+INFO  19:43:34,322 - #4 }
+INFO  19:43:34,322 - #4 }
+ERROR 19:43:34,328 - Oporavak od greske u DS. Linija: 1
+INFO  19:43:34,336 - Program(
+ test302
+  ConVarDecList_e(
+  ) [ConVarDecList_e]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          NeedBracket_e(
+          ) [NeedBracket_e]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_error(
+          ) [DesignatorStatement_error]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:43:34,337 - =====================================================================
+ERROR 19:43:34,337 - Parsiranje NIJE uspesno zavrseno!

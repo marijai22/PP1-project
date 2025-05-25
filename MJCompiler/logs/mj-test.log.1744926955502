@@ -1,0 +1,81 @@
+INFO  23:43:39,481 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:43:39,548 - #2 program
+INFO  23:43:39,548 - #43 Test
+INFO  23:43:39,548 - #5 const
+INFO  23:43:39,550 - #43 int
+INFO  23:43:39,550 - #43 pi
+INFO  23:43:39,551 - #7 =
+INFO  23:43:39,551 - #44 3
+INFO  23:43:39,551 - #6 ;
+INFO  23:43:39,552 - #3 {
+INFO  23:43:39,553 - #11 void
+INFO  23:43:39,554 - #43 main
+INFO  23:43:39,555 - #12 (
+INFO  23:43:39,555 - #13 )
+INFO  23:43:39,556 - #3 {
+INFO  23:43:39,558 - #17 print
+INFO  23:43:39,559 - #12 (
+INFO  23:43:39,559 - #44 1
+INFO  23:43:39,559 - #13 )
+INFO  23:43:39,560 - #6 ;
+INFO  23:43:39,561 - #4 }
+INFO  23:43:39,561 - #4 }
+INFO  23:43:39,568 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_n(
+         3
+        ) [Const_n]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_pre(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorList_n(
+                     1
+                    ) [FactorList_n]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_pre]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  23:43:39,568 - =====================================================================
+INFO  23:43:39,577 - =====================================================================
+INFO  23:43:39,582 - Generisanje uspesno zavrseno!

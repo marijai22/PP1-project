@@ -1,0 +1,43 @@
+INFO  14:19:56,960 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:19:57,505 - #2 program
+INFO  14:19:57,505 - #43 test302
+INFO  14:19:57,506 - #43 int
+INFO  14:19:57,517 - #43 a
+INFO  14:19:57,523 - #8 ,
+INFO  14:19:57,524 - #43 int
+INFO  14:19:57,524 - #43 b
+ERROR 14:19:57,524 - 
+Sintaksna greska na liniji 2
+INFO  14:19:57,524 - #26 .
+INFO  14:19:57,524 - #8 ,
+INFO  14:19:57,524 - #43 int
+INFO  14:19:57,525 - #43 c
+INFO  14:19:57,526 - #6 ;
+ERROR 14:19:57,530 - Oporavak od greske u DS. Linija: 2
+INFO  14:19:57,552 - #3 {
+INFO  14:19:57,552 - #4 }
+INFO  14:19:57,568 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_var(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      VarDeclList_erc(
+      ) [VarDeclList_erc]
+    ) [ConVarDecList_var]
+    VarDeclList_t(
+      Type(
+       int
+      ) [Type]
+      VDecl_i(
+       c
+      ) [VDecl_i]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_t]
+  ) [ConVarDecList_var]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  14:19:57,574 - =====================================================================
+ERROR 14:19:57,574 - Parsiranje NIJE uspesno zavrseno!

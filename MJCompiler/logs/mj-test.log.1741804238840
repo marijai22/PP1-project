@@ -1,0 +1,159 @@
+INFO  19:29:51,173 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:29:51,241 - #2 program
+INFO  19:29:51,241 - #43 Test
+INFO  19:29:51,241 - #5 const
+INFO  19:29:51,244 - #43 int
+INFO  19:29:51,244 - #43 pi
+INFO  19:29:51,245 - #7 =
+INFO  19:29:51,245 - #44 3
+INFO  19:29:51,246 - #6 ;
+INFO  19:29:51,247 - #5 const
+INFO  19:29:51,248 - #43 int
+INFO  19:29:51,248 - #43 pi
+INFO  19:29:51,248 - #7 =
+INFO  19:29:51,248 - #44 33
+INFO  19:29:51,249 - #6 ;
+INFO  19:29:51,249 - #3 {
+INFO  19:29:51,249 - #11 void
+INFO  19:29:51,250 - #43 main
+INFO  19:29:51,250 - #12 (
+INFO  19:29:51,251 - #13 )
+INFO  19:29:51,252 - #3 {
+INFO  19:29:51,254 - #43 a
+INFO  19:29:51,256 - #7 =
+INFO  19:29:51,258 - #43 b
+INFO  19:29:51,259 - #6 ;
+INFO  19:29:51,261 - #4 }
+INFO  19:29:51,261 - #43 int
+INFO  19:29:51,263 - #43 f
+INFO  19:29:51,263 - #12 (
+INFO  19:29:51,263 - #13 )
+INFO  19:29:51,263 - #3 {
+INFO  19:29:51,263 - #15 return
+INFO  19:29:51,263 - #45 1
+INFO  19:29:51,263 - #6 ;
+INFO  19:29:51,263 - #4 }
+INFO  19:29:51,264 - #4 }
+INFO  19:29:51,270 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_n(
+         33
+        ) [Const_n]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               a
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_var(
+                          Designator(
+                           b
+                            DesignExpMore_e(
+                            ) [DesignExpMore_e]
+                          ) [Designator]
+                        ) [FactorSub_var]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [ReturnType_t]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_res(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorSub_b(
+                     1
+                    ) [FactorSub_b]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_res]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:29:51,270 - =====================================================================
+ERROR 19:29:51,278 - Dvostruka definicija konstante: pi na liniji 4
+INFO  19:29:51,278 - =====================================================================
+ERROR 19:29:51,279 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,146 @@
+INFO  19:34:13,709 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:34:13,777 - #2 program
+INFO  19:34:13,777 - #43 Test
+INFO  19:34:13,778 - #5 const
+INFO  19:34:13,779 - #43 int
+INFO  19:34:13,779 - #43 pi
+INFO  19:34:13,780 - #7 =
+INFO  19:34:13,780 - #44 3
+INFO  19:34:13,780 - #6 ;
+INFO  19:34:13,783 - #43 int
+INFO  19:34:13,784 - #43 x
+INFO  19:34:13,784 - #8 ,
+INFO  19:34:13,784 - #43 y
+INFO  19:34:13,785 - #9 [
+INFO  19:34:13,785 - #10 ]
+INFO  19:34:13,785 - #6 ;
+INFO  19:34:13,786 - #3 {
+INFO  19:34:13,786 - #11 void
+INFO  19:34:13,788 - #43 main
+INFO  19:34:13,788 - #12 (
+INFO  19:34:13,788 - #13 )
+INFO  19:34:13,789 - #43 int
+INFO  19:34:13,791 - #43 a
+INFO  19:34:13,792 - #8 ,
+INFO  19:34:13,792 - #43 b
+INFO  19:34:13,792 - #6 ;
+INFO  19:34:13,792 - #43 char
+INFO  19:34:13,792 - #43 carr
+INFO  19:34:13,792 - #9 [
+INFO  19:34:13,792 - #10 ]
+INFO  19:34:13,792 - #6 ;
+INFO  19:34:13,792 - #3 {
+INFO  19:34:13,793 - #17 print
+INFO  19:34:13,793 - #12 (
+INFO  19:34:13,794 - #43 pi
+INFO  19:34:13,794 - #13 )
+INFO  19:34:13,795 - #6 ;
+INFO  19:34:13,795 - #4 }
+INFO  19:34:13,795 - #4 }
+INFO  19:34:13,803 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       x
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_e(
+          ) [NeedVarDeclList_e]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             a
+            ) [VarDecl_var]
+            VarDeclMore_v(
+              VarDecl_var(
+               b
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_pre(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorList_var(
+                      Designator_v(
+                       pi
+                      ) [Designator_v]
+                    ) [FactorList_var]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_pre]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:34:13,803 - =====================================================================
+INFO  19:34:13,813 - =====================================================================
+INFO  19:34:13,817 - Generisanje uspesno zavrseno!

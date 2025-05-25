@@ -1,0 +1,157 @@
+INFO  15:36:02,230 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:36:02,285 - #2 program
+INFO  15:36:02,286 - #43 test302
+INFO  15:36:02,286 - #43 int
+INFO  15:36:02,287 - #43 i
+INFO  15:36:02,288 - #6 ;
+INFO  15:36:02,288 - #3 {
+INFO  15:36:02,289 - #11 void
+INFO  15:36:02,289 - #43 main
+INFO  15:36:02,290 - #12 (
+INFO  15:36:02,290 - #8 ,
+ERROR 15:36:02,290 - 
+Sintaksna greska na liniji 4
+INFO  15:36:02,290 - #13 )
+INFO  15:36:02,290 - #3 {
+INFO  15:36:02,290 - #43 i
+ERROR 15:36:02,295 - Oporavak od greske u DS. Linija: 4
+INFO  15:36:02,300 - #7 =
+INFO  15:36:02,304 - #44 2
+INFO  15:36:02,305 - #6 ;
+INFO  15:36:02,307 - #27 if
+INFO  15:36:02,307 - #12 (
+INFO  15:36:02,308 - #43 i
+INFO  15:36:02,308 - #37 ==
+INFO  15:36:02,308 - #44 2
+INFO  15:36:02,317 - #13 )
+INFO  15:36:02,330 - #17 print
+INFO  15:36:02,331 - #12 (
+INFO  15:36:02,331 - #20 -
+INFO  15:36:02,331 - #44 6
+INFO  15:36:02,331 - #13 )
+INFO  15:36:02,331 - #6 ;
+INFO  15:36:02,331 - #4 }
+INFO  15:36:02,332 - #4 }
+INFO  15:36:02,340 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_i(
+      Type(
+       int
+      ) [Type]
+     i
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_i]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_errc(
+        ) [FormPars_errc]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               i
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_n(
+                         2
+                        ) [FactorSub_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_if(
+          Condition_c(
+            CondTerm(
+              CondFact_ere(
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorSub_var(
+                            Designator(
+                             i
+                              DesignExpMore_e(
+                              ) [DesignExpMore_e]
+                            ) [Designator]
+                          ) [FactorSub_var]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+                Relop_eq(
+                ) [Relop_eq]
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorSub_n(
+                           2
+                          ) [FactorSub_n]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+              ) [CondFact_ere]
+              AndCondFact_e(
+              ) [AndCondFact_e]
+            ) [CondTerm]
+            OrCondTerm_e(
+            ) [OrCondTerm_e]
+          ) [Condition_c]
+          Statement_pre(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_m(
+                      FactorSub_n(
+                       6
+                      ) [FactorSub_n]
+                    ) [Factor_m]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_pre]
+          ElseStatement_e(
+          ) [ElseStatement_e]
+        ) [Statement_if]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  15:36:02,341 - =====================================================================
+ERROR 15:36:02,342 - Parsiranje NIJE uspesno zavrseno!

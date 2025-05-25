@@ -1,0 +1,237 @@
+INFO  14:07:26,152 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:07:26,216 - #2 program
+INFO  14:07:26,217 - #43 Test
+INFO  14:07:26,217 - #5 const
+INFO  14:07:26,218 - #43 int
+INFO  14:07:26,219 - #43 pi
+INFO  14:07:26,219 - #7 =
+INFO  14:07:26,219 - #44 3
+INFO  14:07:26,220 - #8 ,
+INFO  14:07:26,220 - #43 g
+INFO  14:07:26,221 - #7 =
+INFO  14:07:26,221 - #44 11
+INFO  14:07:26,221 - #6 ;
+INFO  14:07:26,222 - #43 char
+INFO  14:07:26,222 - #43 x
+INFO  14:07:26,222 - #8 ,
+INFO  14:07:26,223 - #43 y
+INFO  14:07:26,223 - #9 [
+INFO  14:07:26,223 - #10 ]
+INFO  14:07:26,223 - #6 ;
+INFO  14:07:26,224 - #5 const
+INFO  14:07:26,225 - #43 bool
+INFO  14:07:26,225 - #43 t
+INFO  14:07:26,226 - #7 =
+INFO  14:07:26,226 - #45 1
+INFO  14:07:26,226 - #6 ;
+INFO  14:07:26,226 - #3 {
+INFO  14:07:26,227 - #43 int
+INFO  14:07:26,228 - #43 p
+INFO  14:07:26,228 - #12 (
+INFO  14:07:26,228 - #43 int
+INFO  14:07:26,228 - #43 t
+INFO  14:07:26,229 - #13 )
+INFO  14:07:26,229 - #3 {
+INFO  14:07:26,231 - #4 }
+INFO  14:07:26,232 - #11 void
+INFO  14:07:26,233 - #43 main
+INFO  14:07:26,233 - #12 (
+INFO  14:07:26,233 - #13 )
+INFO  14:07:26,234 - #43 int
+INFO  14:07:26,234 - #43 a
+INFO  14:07:26,234 - #8 ,
+INFO  14:07:26,235 - #43 b
+INFO  14:07:26,235 - #9 [
+INFO  14:07:26,235 - #10 ]
+INFO  14:07:26,235 - #6 ;
+INFO  14:07:26,235 - #43 int
+INFO  14:07:26,235 - #43 x
+INFO  14:07:26,235 - #9 [
+INFO  14:07:26,236 - #10 ]
+INFO  14:07:26,236 - #8 ,
+INFO  14:07:26,236 - #43 y
+INFO  14:07:26,236 - #6 ;
+INFO  14:07:26,236 - #43 char
+INFO  14:07:26,236 - #43 eol
+INFO  14:07:26,236 - #6 ;
+INFO  14:07:26,236 - #3 {
+INFO  14:07:26,237 - #16 read
+INFO  14:07:26,237 - #12 (
+INFO  14:07:26,237 - #43 a
+INFO  14:07:26,237 - #13 )
+INFO  14:07:26,237 - #6 ;
+INFO  14:07:26,237 - #16 read
+INFO  14:07:26,237 - #12 (
+INFO  14:07:26,238 - #43 eol
+INFO  14:07:26,238 - #13 )
+INFO  14:07:26,238 - #6 ;
+INFO  14:07:26,238 - #4 }
+INFO  14:07:26,238 - #4 }
+INFO  14:07:26,245 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_con(
+        ConVarDecList_e(
+        ) [ConVarDecList_e]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pi
+            Const_n(
+             3
+            ) [Const_n]
+          ) [ConstDecl]
+          ConstDeclMore_comma(
+            ConstDecl(
+             g
+              Const_n(
+               11
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_e(
+            ) [ConstDeclMore_e]
+          ) [ConstDeclMore_comma]
+        ) [ConstDeclList]
+      ) [ConVarDecList_con]
+      VarDeclList_v(
+        Type(
+         char
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_arr(
+           y
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_t(
+            Type(
+             int
+            ) [Type]
+           p
+          ) [ReturnType_t]
+          FormPars_fmore(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             t
+            ) [FormPar_var]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormPars_fmore]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_rd(
+            Designator_v(
+             a
+            ) [Designator_v]
+          ) [Statement_rd]
+        ) [StatementList_s]
+        Statement_rd(
+          Designator_v(
+           eol
+          ) [Designator_v]
+        ) [Statement_rd]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  14:07:26,246 - =====================================================================
+INFO  14:07:26,253 - =====================================================================
+INFO  14:07:26,254 - Parsiranje uspesno zavrseno!

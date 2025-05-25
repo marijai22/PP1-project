@@ -1,0 +1,64 @@
+INFO  14:37:08,650 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:37:08,703 - #2 program
+INFO  14:37:08,703 - #43 test302
+INFO  14:37:08,703 - #43 int
+INFO  14:37:08,704 - #43 a
+INFO  14:37:08,705 - #8 ,
+INFO  14:37:08,705 - #43 b
+INFO  14:37:08,705 - #8 ,
+INFO  14:37:08,706 - #43 c
+INFO  14:37:08,706 - #6 ;
+INFO  14:37:08,706 - #3 {
+INFO  14:37:08,707 - #11 void
+INFO  14:37:08,708 - #43 main
+INFO  14:37:08,708 - #12 (
+INFO  14:37:08,709 - #13 )
+INFO  14:37:08,710 - #3 {
+INFO  14:37:08,711 - #4 }
+INFO  14:37:08,712 - #4 }
+INFO  14:37:08,716 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_t(
+      Type(
+       int
+      ) [Type]
+      VDecl_i(
+       a
+      ) [VDecl_i]
+      VarDeclMore_v(
+        VDecl_i(
+         b
+        ) [VDecl_i]
+        VarDeclMore_v(
+          VDecl_i(
+           c
+          ) [VDecl_i]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_t]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  14:37:08,720 - =====================================================================
+INFO  14:37:08,721 - Parsiranje uspesno zavrseno!

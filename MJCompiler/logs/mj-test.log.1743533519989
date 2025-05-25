@@ -1,0 +1,230 @@
+INFO  20:51:41,654 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:51:41,723 - #2 program
+INFO  20:51:41,724 - #43 Test
+INFO  20:51:41,724 - #5 const
+INFO  20:51:41,725 - #43 int
+INFO  20:51:41,725 - #43 pi
+INFO  20:51:41,726 - #7 =
+INFO  20:51:41,726 - #44 3
+INFO  20:51:41,726 - #8 ,
+INFO  20:51:41,728 - #43 g
+INFO  20:51:41,728 - #7 =
+INFO  20:51:41,728 - #44 11
+INFO  20:51:41,728 - #6 ;
+INFO  20:51:41,729 - #43 char
+INFO  20:51:41,730 - #43 x
+INFO  20:51:41,730 - #8 ,
+INFO  20:51:41,731 - #43 y
+INFO  20:51:41,731 - #9 [
+INFO  20:51:41,731 - #10 ]
+INFO  20:51:41,731 - #6 ;
+INFO  20:51:41,732 - #43 set
+INFO  20:51:41,733 - #43 s1
+INFO  20:51:41,733 - #6 ;
+INFO  20:51:41,737 - #5 const
+INFO  20:51:41,737 - #43 bool
+INFO  20:51:41,737 - #43 t
+INFO  20:51:41,737 - #7 =
+INFO  20:51:41,737 - #45 1
+INFO  20:51:41,737 - #6 ;
+INFO  20:51:41,737 - #3 {
+INFO  20:51:41,737 - #11 void
+INFO  20:51:41,738 - #43 main
+INFO  20:51:41,739 - #12 (
+INFO  20:51:41,739 - #13 )
+INFO  20:51:41,739 - #3 {
+INFO  20:51:41,741 - #4 }
+INFO  20:51:41,741 - #43 int
+INFO  20:51:41,743 - #43 main
+INFO  20:51:41,743 - #12 (
+INFO  20:51:41,743 - #43 int
+INFO  20:51:41,743 - #43 k
+INFO  20:51:41,744 - #13 )
+INFO  20:51:41,745 - #43 int
+INFO  20:51:41,745 - #43 a
+INFO  20:51:41,745 - #8 ,
+INFO  20:51:41,745 - #43 b
+INFO  20:51:41,745 - #9 [
+INFO  20:51:41,745 - #10 ]
+INFO  20:51:41,745 - #6 ;
+INFO  20:51:41,745 - #43 int
+INFO  20:51:41,746 - #43 x
+INFO  20:51:41,746 - #9 [
+INFO  20:51:41,746 - #10 ]
+INFO  20:51:41,746 - #8 ,
+INFO  20:51:41,746 - #43 y
+INFO  20:51:41,746 - #6 ;
+INFO  20:51:41,746 - #43 char
+INFO  20:51:41,746 - #43 eol
+INFO  20:51:41,747 - #6 ;
+INFO  20:51:41,747 - #3 {
+INFO  20:51:41,747 - #4 }
+INFO  20:51:41,747 - #4 }
+INFO  20:51:41,753 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         set
+        ) [Type]
+        VarDecl_var(
+         s1
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         main
+        ) [ReturnType_t]
+        FormPars_fmore(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           k
+          ) [FormPar_var]
+          FormParsMore_e(
+          ) [FormParsMore_e]
+        ) [FormPars_fmore]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  20:51:41,754 - =====================================================================
+ERROR 20:51:41,764 - Dvostruka definicija main metode: main na liniji 16
+ERROR 20:51:41,764 - Program nema adekvatnu main metodu. na liniji 1
+INFO  20:51:41,764 - =====================================================================
+ERROR 20:51:41,765 - Parsiranje NIJE uspesno zavrseno!

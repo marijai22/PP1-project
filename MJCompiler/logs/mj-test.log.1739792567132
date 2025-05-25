@@ -1,0 +1,11 @@
+INFO  12:41:49,552 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:41:49,619 - #2 program
+INFO  12:41:49,619 - #43 Keske
+INFO  12:41:49,619 - #43 int
+INFO  12:41:49,621 - #43 x
+INFO  12:41:49,622 - #6 ;
+INFO  12:41:49,624 - #3 {
+INFO  12:41:49,625 - #3 {
+ERROR 12:41:49,625 - 
+Sintaksna greska na liniji 5
+ERROR 12:41:49,625 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

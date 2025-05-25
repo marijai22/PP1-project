@@ -1,0 +1,42 @@
+INFO  15:42:25,679 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:42:26,388 - #2 program
+INFO  15:42:26,388 - #43 test302
+INFO  15:42:26,388 - #43 int
+INFO  15:42:26,400 - #43 i
+INFO  15:42:26,413 - #6 ;
+INFO  15:42:26,425 - #3 {
+INFO  15:42:26,426 - #11 void
+INFO  15:42:26,437 - #43 main
+INFO  15:42:26,437 - #12 (
+INFO  15:42:26,437 - #43 int
+INFO  15:42:26,437 - #43 a
+INFO  15:42:26,438 - #8 ,
+INFO  15:42:26,438 - #43 int
+INFO  15:42:26,438 - #43 b
+INFO  15:42:26,438 - #26 .
+ERROR 15:42:26,438 - 
+Sintaksna greska na liniji 4
+INFO  15:42:26,438 - #8 ,
+INFO  15:42:26,438 - #43 int
+INFO  15:42:26,438 - #43 c
+INFO  15:42:26,439 - #13 )
+INFO  15:42:26,440 - #3 {
+INFO  15:42:26,443 - #43 i
+INFO  15:42:26,443 - #7 =
+INFO  15:42:26,443 - #44 2
+INFO  15:42:26,443 - #6 ;
+INFO  15:42:26,444 - #27 if
+INFO  15:42:26,444 - #12 (
+INFO  15:42:26,444 - #43 i
+INFO  15:42:26,444 - #37 ==
+INFO  15:42:26,444 - #44 2
+INFO  15:42:26,444 - #13 )
+INFO  15:42:26,444 - #17 print
+INFO  15:42:26,444 - #12 (
+INFO  15:42:26,444 - #20 -
+INFO  15:42:26,444 - #44 6
+INFO  15:42:26,444 - #13 )
+INFO  15:42:26,444 - #6 ;
+INFO  15:42:26,445 - #4 }
+INFO  15:42:26,445 - #4 }
+ERROR 15:42:26,445 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

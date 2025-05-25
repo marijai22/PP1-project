@@ -1,0 +1,193 @@
+INFO  01:07:13,115 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\test303.mj
+INFO  01:07:13,208 - #2 program
+INFO  01:07:13,208 - #43 Test
+INFO  01:07:13,208 - #5 const
+INFO  01:07:13,210 - #43 int
+INFO  01:07:13,210 - #43 pi
+INFO  01:07:13,211 - #7 =
+INFO  01:07:13,211 - #44 3
+INFO  01:07:13,211 - #8 ,
+INFO  01:07:13,212 - #43 g
+INFO  01:07:13,212 - #7 =
+INFO  01:07:13,212 - #44 11
+INFO  01:07:13,212 - #6 ;
+INFO  01:07:13,213 - #43 char
+INFO  01:07:13,214 - #43 x
+INFO  01:07:13,214 - #8 ,
+INFO  01:07:13,215 - #43 y
+INFO  01:07:13,215 - #9 [
+INFO  01:07:13,215 - #10 ]
+INFO  01:07:13,215 - #6 ;
+INFO  01:07:13,217 - #5 const
+INFO  01:07:13,218 - #43 bool
+INFO  01:07:13,218 - #43 t
+INFO  01:07:13,219 - #7 =
+INFO  01:07:13,219 - #45 1
+INFO  01:07:13,219 - #6 ;
+INFO  01:07:13,219 - #43 set
+INFO  01:07:13,219 - #43 s1
+INFO  01:07:13,219 - #8 ,
+INFO  01:07:13,220 - #43 s2
+INFO  01:07:13,220 - #8 ,
+INFO  01:07:13,220 - #43 s3
+INFO  01:07:13,220 - #6 ;
+INFO  01:07:13,220 - #3 {
+INFO  01:07:13,220 - #11 void
+INFO  01:07:13,222 - #43 main
+INFO  01:07:13,223 - #12 (
+INFO  01:07:13,223 - #13 )
+INFO  01:07:13,224 - #3 {
+INFO  01:07:13,226 - #43 s1
+INFO  01:07:13,226 - #7 =
+INFO  01:07:13,227 - #21 new
+INFO  01:07:13,227 - #43 int
+INFO  01:07:13,228 - #9 [
+INFO  01:07:13,228 - #44 5
+INFO  01:07:13,228 - #10 ]
+INFO  01:07:13,229 - #6 ;
+INFO  01:07:13,230 - #4 }
+INFO  01:07:13,230 - #4 }
+INFO  01:07:13,237 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDecl(
+         t
+          Const_b(
+           1
+          ) [Const_b]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_var(
+         s2
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_var(
+           s3
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_ass(
+            Designator_v(
+             s1
+            ) [Designator_v]
+            Assignop(
+            ) [Assignop]
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_new_coll(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_a(
+                          AddopTermList_t(
+                            Term(
+                              MulOpFact_f(
+                                Factor_f(
+                                  FactorList_n(
+                                   5
+                                  ) [FactorList_n]
+                                ) [Factor_f]
+                              ) [MulOpFact_f]
+                            ) [Term]
+                          ) [AddopTermList_t]
+                        ) [Expr_a]
+                      ) [FactorList_new_coll]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [DesignatorStatement_ass]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  01:07:13,238 - =====================================================================
+ERROR 01:07:13,246 - Neadekvatna dodela vrednosti u promenljivu s1 na liniji 13
+INFO  01:07:13,247 - =====================================================================
+ERROR 01:07:13,247 - Parsiranje NIJE uspesno zavrseno!

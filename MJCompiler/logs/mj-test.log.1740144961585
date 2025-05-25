@@ -1,0 +1,59 @@
+INFO  14:35:48,119 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:35:48,173 - #2 program
+INFO  14:35:48,173 - #43 test302
+INFO  14:35:48,173 - #43 int
+INFO  14:35:48,174 - #43 a
+INFO  14:35:48,174 - #26 .
+ERROR 14:35:48,175 - 
+Sintaksna greska na liniji 2
+INFO  14:35:48,175 - #8 ,
+INFO  14:35:48,175 - #43 int
+INFO  14:35:48,175 - #43 b
+INFO  14:35:48,176 - #8 ,
+ERROR 14:35:48,181 - Oporavak od greske u DS. Linija: 2
+INFO  14:35:48,182 - #43 int
+INFO  14:35:48,182 - #43 c
+ERROR 14:35:48,183 - 
+Sintaksna greska na liniji 2
+INFO  14:35:48,183 - #6 ;
+INFO  14:35:48,183 - #3 {
+INFO  14:35:48,183 - #11 void
+INFO  14:35:48,183 - #43 main
+ERROR 14:35:48,183 - Oporavak od greske u DS. Linija: 2
+INFO  14:35:48,189 - #12 (
+INFO  14:35:48,189 - #13 )
+INFO  14:35:48,190 - #3 {
+INFO  14:35:48,191 - #4 }
+INFO  14:35:48,192 - #4 }
+INFO  14:35:48,196 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_var(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      VarDeclList_erc(
+      ) [VarDeclList_erc]
+    ) [ConVarDecList_var]
+    VarDeclList_ers(
+    ) [VarDeclList_ers]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  14:35:48,197 - =====================================================================
+ERROR 14:35:48,197 - Parsiranje NIJE uspesno zavrseno!

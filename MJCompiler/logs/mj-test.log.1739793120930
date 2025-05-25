@@ -1,0 +1,170 @@
+INFO  12:46:00,188 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:46:00,253 - #2 program
+INFO  12:46:00,253 - #43 Keske
+INFO  12:46:00,253 - #43 int
+INFO  12:46:00,254 - #43 x
+INFO  12:46:00,255 - #6 ;
+INFO  12:46:00,259 - #3 {
+INFO  12:46:00,260 - #11 void
+INFO  12:46:00,261 - #43 main
+INFO  12:46:00,261 - #12 (
+INFO  12:46:00,261 - #13 )
+INFO  12:46:00,262 - #3 {
+INFO  12:46:00,264 - #43 a
+INFO  12:46:00,265 - #18 ++
+INFO  12:46:00,267 - #6 ;
+INFO  12:46:00,267 - #43 b
+INFO  12:46:00,268 - #7 =
+INFO  12:46:00,268 - #44 3
+INFO  12:46:00,269 - #6 ;
+INFO  12:46:00,271 - #28 do
+INFO  12:46:00,272 - #3 {
+INFO  12:46:00,272 - #43 prnt
+INFO  12:46:00,272 - #12 (
+INFO  12:46:00,273 - #46 x
+INFO  12:46:00,273 - #13 )
+INFO  12:46:00,276 - #6 ;
+INFO  12:46:00,276 - #4 }
+INFO  12:46:00,277 - #29 while
+INFO  12:46:00,277 - #12 (
+INFO  12:46:00,277 - #45 1
+INFO  12:46:00,278 - #13 )
+INFO  12:46:00,284 - #6 ;
+INFO  12:46:00,284 - #4 }
+INFO  12:46:00,285 - #4 }
+INFO  12:46:00,294 - Program(
+ Keske
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+     x
+      NeedBracket_e(
+      ) [NeedBracket_e]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_s(
+          StatementList_s(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_ds(
+              DesignatorStatement_inc(
+                Designator(
+                 a
+                  DesignExpMore_e(
+                  ) [DesignExpMore_e]
+                ) [Designator]
+              ) [DesignatorStatement_inc]
+            ) [Statement_ds]
+          ) [StatementList_s]
+          Statement_ds(
+            DesignatorStatement_assign(
+              Designator(
+               b
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_n(
+                         3
+                        ) [FactorSub_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_assign]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_dw(
+          Statement_st(
+            StatementList_s(
+              StatementList_e(
+              ) [StatementList_e]
+              Statement_ds(
+                DesignatorStatement_meth(
+                  Designator(
+                   prnt
+                    DesignExpMore_e(
+                    ) [DesignExpMore_e]
+                  ) [Designator]
+                  ParamsAct_rec(
+                    Expr_a(
+                      AddopTermList_t(
+                        Term(
+                          MulOpFact_f(
+                            Factor_f(
+                              FactorSub_c(
+                               x
+                              ) [FactorSub_c]
+                            ) [Factor_f]
+                          ) [MulOpFact_f]
+                        ) [Term]
+                      ) [AddopTermList_t]
+                    ) [Expr_a]
+                    ActParMore_e(
+                    ) [ActParMore_e]
+                  ) [ParamsAct_rec]
+                ) [DesignatorStatement_meth]
+              ) [Statement_ds]
+            ) [StatementList_s]
+          ) [Statement_st]
+          WhileParams_c(
+            Condition(
+              CondTerm(
+                CondFact_e(
+                  Expr_a(
+                    AddopTermList_t(
+                      Term(
+                        MulOpFact_f(
+                          Factor_f(
+                            FactorSub_b(
+                             1
+                            ) [FactorSub_b]
+                          ) [Factor_f]
+                        ) [MulOpFact_f]
+                      ) [Term]
+                    ) [AddopTermList_t]
+                  ) [Expr_a]
+                ) [CondFact_e]
+                AndCondFact_e(
+                ) [AndCondFact_e]
+              ) [CondTerm]
+              OrCondTerm_e(
+              ) [OrCondTerm_e]
+            ) [Condition]
+            CondDesign_e(
+            ) [CondDesign_e]
+          ) [WhileParams_c]
+        ) [Statement_dw]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  12:46:00,294 - =====================================================================
+INFO  12:46:00,294 - Parsiranje uspesno zavrseno!

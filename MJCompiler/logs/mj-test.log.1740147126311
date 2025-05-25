@@ -1,0 +1,50 @@
+INFO  15:12:00,881 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:12:00,949 - #2 program
+INFO  15:12:00,949 - #43 test302
+INFO  15:12:00,949 - #43 int
+INFO  15:12:00,950 - #43 a
+INFO  15:12:00,950 - #26 .
+ERROR 15:12:00,951 - 
+Sintaksna greska na liniji 2
+INFO  15:12:00,951 - #8 ,
+INFO  15:12:00,951 - #43 b
+INFO  15:12:00,951 - #8 ,
+INFO  15:12:00,952 - #43 c
+INFO  15:12:00,953 - #6 ;
+INFO  15:12:00,953 - #3 {
+INFO  15:12:00,953 - #11 void
+INFO  15:12:00,953 - #43 main
+ERROR 15:12:00,958 - Oporavak od greske u DS. Linija: 2
+INFO  15:12:00,959 - #12 (
+INFO  15:12:00,960 - #13 )
+INFO  15:12:00,961 - #3 {
+INFO  15:12:00,962 - #4 }
+INFO  15:12:00,962 - #4 }
+INFO  15:12:00,966 - Program(
+ test302
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_errs(
+    ) [VarDeclList_errs]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  15:12:00,966 - =====================================================================
+ERROR 15:12:00,967 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,120 @@
+program Test
+
+const int pi = 3, g = 11;
+
+char x, y[];
+
+const bool t = true;
+
+set s1, s2, s3;
+{
+
+	bool p(char c) int a, b[]; int x[], y; char eol;{ 
+		
+		//s1 = new int[5];  // OVO TREBA RESITI
+		// b = new int[3];
+	
+		// main(); 			// ok
+		// m2();			// error
+		
+		// if(b != null) a++;	// ok 
+		// if(b >= null) a++;	// error 
+		
+		return false;
+	}
+	
+	void main() int a, b[]; int x[], y; char eol;{
+	
+		// a = b;    		// error
+		// a = 3 + b;
+		// a = 3 + b*2;
+		// a = 3 + b[2]*2;
+		
+		//y = p map x; 	// error
+		
+		// g = 3;  			// error
+	 	// a = 3; 			// ok
+	 	// x = new int[5];  // ok
+	 	// x = a; 			// error
+	 	// x[2] = a; 		// ok
+	 	// x[3] = x[4]; 	// ok
+	 	// x = null; 		// ok
+	 	
+	 	// x++; 			// error
+	 	// x[2]--; 			// ok
+	 	// pi--;			// error
+	 	// a++;				// ok
+	 	// eol++;			// error
+	 	
+	 	// read(a);         // ok
+	 	// read(eol);		// ok
+	 	// read(x);			// error
+	 	//read(x[2]);		// ok
+	 	
+	 	// print(1);		// ok, radi sve i sa zarezom
+	 	// print(a);		// ok
+	 	// print(eol);		// ok
+	 	// print(t,4 );		// ok
+	 	// print(s1);		// ok
+	 	
+	 	// print(x);		// error
+	 	// print(x[2], 4);	// ok, radi sve i sa zarezom
+	 	
+	 	// s1 = s2 union s3;	// ok
+	 	
+	 	
+	 	x[1]++;
+	 	x[2]--;
+	 	y = x[3] + x[4] / x[5];
+	 	
+	 	return;
+	}
+
+
+	int m2() int a; bool b; { 
+	
+		// a = p();			// error
+		// b = p();			// ok
+		
+		// break;			// error
+		
+		do {
+			break;			// ok
+			
+			do {
+				break;		// ok
+				continue;
+				
+			} while(true);
+			
+			break;
+			continue;
+			
+		} while(true);
+		
+		// continue; 			// error
+		
+		
+		if(true && a == 2 || b && a <2) a++; // ok
+		
+		return a;
+	}
+	
+	
+	int f1(int x) {return x;}
+	int f2(int x, bool b, int g) int a; {return f1(x) + a + 1;}
+	
+	int f3() {
+	 
+		// f2(1, 2); 		// error
+		// f2('1', true); 	// error
+		// f2( true); 		// error
+		// f2(1, true); 	// ok
+		
+		// f2(f2(1, true, 2), true, f2(1, false, true)); 	// error
+		f2(f2(1, true, 2), true, f2(1, false, 6)); 	// ok
+		
+	 	return 1;
+	 }
+	
+}

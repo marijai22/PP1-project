@@ -1,0 +1,35 @@
+INFO  11:43:11,997 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:43:12,070 - #2 program
+INFO  11:43:12,070 - #43 Keske
+INFO  11:43:12,070 - #3 {
+INFO  11:43:12,071 - #11 void
+INFO  11:43:12,072 - #43 main
+INFO  11:43:12,072 - #12 (
+INFO  11:43:12,072 - #13 )
+INFO  11:43:12,073 - #3 {
+INFO  11:43:12,075 - #4 }
+INFO  11:43:12,076 - #4 }
+INFO  11:43:12,079 - Program(
+ Keske
+  ConVarDecList_e(
+  ) [ConVarDecList_e]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  11:43:12,079 - =====================================================================
+INFO  11:43:12,079 - Parsiranje uspesno zavrseno!

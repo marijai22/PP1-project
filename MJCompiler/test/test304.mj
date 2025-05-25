@@ -1,0 +1,49 @@
+program Test
+
+const int pi = 3;
+int x, y[];
+
+{
+	//void ispis() {print(1);}
+	
+	int f(int x) {return x;}
+
+	void main() int a, b, c[]; char carr[]; int i;{
+		
+		//a = -5;
+		//print(-a);
+		
+		//print(-7); 
+		
+	 	//print(1+3);
+	 	//print('a');
+	 	//print(1+2*2);
+	 	//print(pi);
+	 	//print(a);
+	 	
+	 	//carr = new char[5];
+	 	//carr[1] = 'k';
+	 	//print(carr[1]);
+	 	
+	 	//a--;
+	 	
+	 	//c = new int[2];
+	 	//c[0]--;
+	 	
+	 	//return;
+	 	
+	 	//print(c[0]);
+	 	
+	 	//read(c[1]);
+	 	//print(c[1], 10);
+	 	
+	 	//ispis();
+	 	
+	 	//i = f() + 2;
+	 	//print(i);
+	 	
+	 	i = f(3);
+	 	print(i);
+	}
+	
+}

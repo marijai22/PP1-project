@@ -1,0 +1,150 @@
+INFO  20:21:07,910 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:21:07,966 - #2 program
+INFO  20:21:07,966 - #43 Test
+INFO  20:21:07,967 - #5 const
+INFO  20:21:07,968 - #43 int
+INFO  20:21:07,968 - #43 pi
+INFO  20:21:07,969 - #7 =
+INFO  20:21:07,969 - #45 0
+INFO  20:21:07,969 - #8 ,
+INFO  20:21:07,970 - #43 g
+INFO  20:21:07,970 - #7 =
+INFO  20:21:07,971 - #44 11
+INFO  20:21:07,971 - #6 ;
+INFO  20:21:07,972 - #3 {
+INFO  20:21:07,973 - #11 void
+INFO  20:21:07,973 - #43 main
+INFO  20:21:07,973 - #12 (
+INFO  20:21:07,974 - #13 )
+INFO  20:21:07,975 - #3 {
+INFO  20:21:07,977 - #43 a
+INFO  20:21:07,978 - #7 =
+INFO  20:21:07,980 - #43 b
+INFO  20:21:07,981 - #6 ;
+INFO  20:21:07,984 - #4 }
+INFO  20:21:07,984 - #43 int
+INFO  20:21:07,986 - #43 f
+INFO  20:21:07,986 - #12 (
+INFO  20:21:07,986 - #13 )
+INFO  20:21:07,986 - #3 {
+INFO  20:21:07,986 - #15 return
+INFO  20:21:07,986 - #45 1
+INFO  20:21:07,986 - #6 ;
+INFO  20:21:07,986 - #4 }
+INFO  20:21:07,987 - #4 }
+INFO  20:21:07,993 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        Const_b(
+         0
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_comma(
+        ConstDecl(
+         g
+          Const_n(
+           11
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator(
+               a
+                DesignExpMore_e(
+                ) [DesignExpMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorSub_var(
+                          Designator(
+                           b
+                            DesignExpMore_e(
+                            ) [DesignExpMore_e]
+                          ) [Designator]
+                        ) [FactorSub_var]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [ReturnType_t]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_res(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorSub_b(
+                     1
+                    ) [FactorSub_b]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_res]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  20:21:07,993 - =====================================================================
+ERROR 20:21:08,004 - Neadekvatna dodela konstanti: pi na liniji 3
+INFO  20:21:08,004 - =====================================================================
+ERROR 20:21:08,005 - Parsiranje NIJE uspesno zavrseno!

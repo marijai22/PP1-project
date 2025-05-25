@@ -1,0 +1,86 @@
+INFO  20:18:29,774 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:18:30,334 - #2 program
+INFO  20:18:30,334 - #43 Program1
+INFO  20:18:30,334 - #5 const
+INFO  20:18:30,348 - #43 int
+INFO  20:18:30,348 - #43 pi
+INFO  20:18:30,354 - #7 =
+INFO  20:18:30,355 - #44 3
+INFO  20:18:30,355 - #6 ;
+INFO  20:18:30,368 - #43 char
+INFO  20:18:30,374 - #43 carr
+INFO  20:18:30,374 - #9 [
+INFO  20:18:30,374 - #10 ]
+INFO  20:18:30,375 - #6 ;
+INFO  20:18:30,383 - #3 {
+INFO  20:18:30,384 - #11 void
+INFO  20:18:30,391 - #43 main
+INFO  20:18:30,391 - #12 (
+INFO  20:18:30,392 - #13 )
+INFO  20:18:30,402 - #3 {
+INFO  20:18:30,415 - #43 a
+INFO  20:18:30,421 - #23 *
+ERROR 20:18:30,441 - 
+Sintaksna greska na liniji 11
+INFO  20:18:30,441 - #23 *
+INFO  20:18:30,442 - #6 ;
+INFO  20:18:30,442 - #4 }
+INFO  20:18:30,442 - #4 }
+ERROR 20:18:30,447 - Oporavak od greske u DS. Linija: 13
+INFO  20:18:30,474 - Program(
+  ProgramName(
+   Program1
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_ilr(
+      Type(
+       char
+      ) [Type]
+     carr
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_ilr]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_err(
+          ) [DesignatorStatement_err]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  20:18:30,474 - =====================================================================
+ERROR 20:18:30,474 - Parsiranje NIJE uspesno zavrseno!

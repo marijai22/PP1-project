@@ -1,0 +1,175 @@
+INFO  21:40:35,316 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:40:35,393 - #2 program
+INFO  21:40:35,393 - #43 Test
+INFO  21:40:35,393 - #3 {
+INFO  21:40:35,395 - #11 void
+INFO  21:40:35,396 - #43 main
+INFO  21:40:35,396 - #12 (
+INFO  21:40:35,396 - #13 )
+INFO  21:40:35,397 - #43 int
+INFO  21:40:35,398 - #43 i
+INFO  21:40:35,399 - #6 ;
+INFO  21:40:35,400 - #3 {
+INFO  21:40:35,400 - #43 i
+INFO  21:40:35,401 - #7 =
+INFO  21:40:35,401 - #44 4
+INFO  21:40:35,402 - #6 ;
+INFO  21:40:35,404 - #28 do
+INFO  21:40:35,404 - #3 {
+INFO  21:40:35,406 - #17 print
+INFO  21:40:35,406 - #12 (
+INFO  21:40:35,406 - #43 i
+INFO  21:40:35,406 - #13 )
+INFO  21:40:35,406 - #6 ;
+INFO  21:40:35,407 - #4 }
+INFO  21:40:35,407 - #29 while
+INFO  21:40:35,408 - #12 (
+INFO  21:40:35,409 - #43 i
+INFO  21:40:35,409 - #41 <
+INFO  21:40:35,409 - #44 10
+INFO  21:40:35,411 - #8 ,
+INFO  21:40:35,412 - #43 i
+INFO  21:40:35,412 - #18 ++
+INFO  21:40:35,412 - #13 )
+INFO  21:40:35,413 - #6 ;
+INFO  21:40:35,413 - #4 }
+INFO  21:40:35,413 - #4 }
+INFO  21:40:35,420 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_e(
+  ) [ConVarDecList_e]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList_v(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           i
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator_v(
+               i
+              ) [Designator_v]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_n(
+                         4
+                        ) [FactorList_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_dwcd(
+          DoNonterminal(
+          ) [DoNonterminal]
+          Statement_st(
+            StatementList_s(
+              StatementList_e(
+              ) [StatementList_e]
+              Statement_pre(
+                Expr_a(
+                  AddopTermList_t(
+                    Term(
+                      MulOpFact_f(
+                        Factor_f(
+                          FactorList_var(
+                            Designator_v(
+                             i
+                            ) [Designator_v]
+                          ) [FactorList_var]
+                        ) [Factor_f]
+                      ) [MulOpFact_f]
+                    ) [Term]
+                  ) [AddopTermList_t]
+                ) [Expr_a]
+              ) [Statement_pre]
+            ) [StatementList_s]
+          ) [Statement_st]
+          WhileNonterminal(
+          ) [WhileNonterminal]
+          Condition_c(
+            CondTermList_c(
+              CondTerm(
+                CondFactList_c(
+                  CondFact_ere(
+                    Expr_a(
+                      AddopTermList_t(
+                        Term(
+                          MulOpFact_f(
+                            Factor_f(
+                              FactorList_var(
+                                Designator_v(
+                                 i
+                                ) [Designator_v]
+                              ) [FactorList_var]
+                            ) [Factor_f]
+                          ) [MulOpFact_f]
+                        ) [Term]
+                      ) [AddopTermList_t]
+                    ) [Expr_a]
+                    Relop_lt(
+                    ) [Relop_lt]
+                    Expr_a(
+                      AddopTermList_t(
+                        Term(
+                          MulOpFact_f(
+                            Factor_f(
+                              FactorList_n(
+                               10
+                              ) [FactorList_n]
+                            ) [Factor_f]
+                          ) [MulOpFact_f]
+                        ) [Term]
+                      ) [AddopTermList_t]
+                    ) [Expr_a]
+                  ) [CondFact_ere]
+                ) [CondFactList_c]
+              ) [CondTerm]
+            ) [CondTermList_c]
+          ) [Condition_c]
+          DesignatorStatement_inc(
+            Designator_v(
+             i
+            ) [Designator_v]
+          ) [DesignatorStatement_inc]
+        ) [Statement_dwcd]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:40:35,421 - =====================================================================
+INFO  21:40:35,430 - =====================================================================
+INFO  21:40:35,437 - Generisanje uspesno zavrseno!

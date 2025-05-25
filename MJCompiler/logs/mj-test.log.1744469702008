@@ -1,0 +1,229 @@
+INFO  16:54:17,497 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:54:17,557 - #2 program
+INFO  16:54:17,557 - #43 Test
+INFO  16:54:17,557 - #5 const
+INFO  16:54:17,559 - #43 int
+INFO  16:54:17,559 - #43 pi
+INFO  16:54:17,560 - #7 =
+INFO  16:54:17,560 - #44 3
+INFO  16:54:17,561 - #8 ,
+INFO  16:54:17,562 - #43 g
+INFO  16:54:17,562 - #7 =
+INFO  16:54:17,562 - #44 11
+INFO  16:54:17,563 - #6 ;
+INFO  16:54:17,564 - #43 char
+INFO  16:54:17,565 - #43 x
+INFO  16:54:17,565 - #8 ,
+INFO  16:54:17,565 - #43 y
+INFO  16:54:17,565 - #9 [
+INFO  16:54:17,565 - #10 ]
+INFO  16:54:17,566 - #6 ;
+INFO  16:54:17,567 - #5 const
+INFO  16:54:17,567 - #43 bool
+INFO  16:54:17,567 - #43 t
+INFO  16:54:17,568 - #7 =
+INFO  16:54:17,568 - #45 1
+INFO  16:54:17,568 - #6 ;
+INFO  16:54:17,568 - #43 set
+INFO  16:54:17,568 - #43 s1
+INFO  16:54:17,568 - #6 ;
+INFO  16:54:17,568 - #3 {
+INFO  16:54:17,568 - #43 int
+INFO  16:54:17,569 - #43 p
+INFO  16:54:17,569 - #12 (
+INFO  16:54:17,569 - #43 int
+INFO  16:54:17,570 - #43 t
+INFO  16:54:17,570 - #13 )
+INFO  16:54:17,571 - #3 {
+INFO  16:54:17,573 - #4 }
+INFO  16:54:17,575 - #11 void
+INFO  16:54:17,576 - #43 main
+INFO  16:54:17,577 - #12 (
+INFO  16:54:17,577 - #13 )
+INFO  16:54:17,578 - #43 int
+INFO  16:54:17,578 - #43 a
+INFO  16:54:17,578 - #8 ,
+INFO  16:54:17,578 - #43 b
+INFO  16:54:17,578 - #9 [
+INFO  16:54:17,578 - #10 ]
+INFO  16:54:17,578 - #6 ;
+INFO  16:54:17,578 - #43 int
+INFO  16:54:17,578 - #43 x
+INFO  16:54:17,579 - #9 [
+INFO  16:54:17,579 - #10 ]
+INFO  16:54:17,579 - #8 ,
+INFO  16:54:17,579 - #43 y
+INFO  16:54:17,579 - #6 ;
+INFO  16:54:17,579 - #43 char
+INFO  16:54:17,580 - #43 eol
+INFO  16:54:17,580 - #6 ;
+INFO  16:54:17,580 - #3 {
+INFO  16:54:17,580 - #4 }
+INFO  16:54:17,581 - #4 }
+INFO  16:54:17,586 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDecl(
+         t
+          Const_b(
+           1
+          ) [Const_b]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_t(
+            Type(
+             int
+            ) [Type]
+           p
+          ) [ReturnType_t]
+          FormPars_fmore(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             t
+            ) [FormPar_var]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormPars_fmore]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  16:54:17,586 - =====================================================================
+ERROR 16:54:17,595 - Ne postoji return naredba unutar ne-void metode p na liniji 12
+INFO  16:54:17,595 - =====================================================================
+ERROR 16:54:17,596 - Parsiranje NIJE uspesno zavrseno!

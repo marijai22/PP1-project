@@ -1,0 +1,136 @@
+INFO  21:16:56,366 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:16:56,674 - #2 program
+INFO  21:16:56,674 - #43 Test
+INFO  21:16:56,674 - #3 {
+INFO  21:16:56,681 - #11 void
+INFO  21:16:56,686 - #43 main
+INFO  21:16:56,686 - #12 (
+INFO  21:16:56,686 - #13 )
+INFO  21:16:56,691 - #43 int
+INFO  21:16:56,702 - #43 i
+INFO  21:16:56,707 - #6 ;
+INFO  21:16:56,712 - #3 {
+INFO  21:16:56,712 - #43 i
+INFO  21:16:56,718 - #7 =
+INFO  21:16:56,718 - #44 4
+INFO  21:16:56,724 - #6 ;
+INFO  21:16:56,730 - #28 do
+INFO  21:16:56,730 - #3 {
+INFO  21:16:56,734 - #17 print
+INFO  21:16:56,734 - #12 (
+INFO  21:16:56,735 - #43 i
+INFO  21:16:56,735 - #13 )
+INFO  21:16:56,735 - #6 ;
+INFO  21:16:56,735 - #43 i
+INFO  21:16:56,736 - #18 ++
+INFO  21:16:56,736 - #6 ;
+INFO  21:16:56,736 - #4 }
+INFO  21:16:56,736 - #29 while
+INFO  21:16:56,736 - #12 (
+INFO  21:16:56,741 - #13 )
+INFO  21:16:56,741 - #6 ;
+INFO  21:16:56,741 - #4 }
+INFO  21:16:56,742 - #4 }
+INFO  21:16:56,755 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_e(
+  ) [ConVarDecList_e]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList_v(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           i
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_ds(
+            DesignatorStatement_ass(
+              Designator_v(
+               i
+              ) [Designator_v]
+              Assignop(
+              ) [Assignop]
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_n(
+                         4
+                        ) [FactorList_n]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [DesignatorStatement_ass]
+          ) [Statement_ds]
+        ) [StatementList_s]
+        Statement_dwe(
+          DoNonterminal(
+          ) [DoNonterminal]
+          Statement_st(
+            StatementList_s(
+              StatementList_s(
+                StatementList_e(
+                ) [StatementList_e]
+                Statement_pre(
+                  Expr_a(
+                    AddopTermList_t(
+                      Term(
+                        MulOpFact_f(
+                          Factor_f(
+                            FactorList_var(
+                              Designator_v(
+                               i
+                              ) [Designator_v]
+                            ) [FactorList_var]
+                          ) [Factor_f]
+                        ) [MulOpFact_f]
+                      ) [Term]
+                    ) [AddopTermList_t]
+                  ) [Expr_a]
+                ) [Statement_pre]
+              ) [StatementList_s]
+              Statement_ds(
+                DesignatorStatement_inc(
+                  Designator_v(
+                   i
+                  ) [Designator_v]
+                ) [DesignatorStatement_inc]
+              ) [Statement_ds]
+            ) [StatementList_s]
+          ) [Statement_st]
+          WhileNonterminal(
+          ) [WhileNonterminal]
+        ) [Statement_dwe]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:16:56,755 - =====================================================================
+INFO  21:16:56,773 - =====================================================================
+INFO  21:16:56,782 - Generisanje uspesno zavrseno!

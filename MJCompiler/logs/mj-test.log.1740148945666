@@ -1,0 +1,42 @@
+INFO  15:40:50,374 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:40:51,213 - #2 program
+INFO  15:40:51,213 - #43 test302
+INFO  15:40:51,213 - #43 int
+INFO  15:40:51,224 - #43 i
+INFO  15:40:51,236 - #6 ;
+INFO  15:40:51,248 - #3 {
+INFO  15:40:51,249 - #11 void
+INFO  15:40:51,260 - #43 main
+INFO  15:40:51,260 - #12 (
+INFO  15:40:51,260 - #43 int
+INFO  15:40:51,261 - #43 a
+INFO  15:40:51,261 - #8 ,
+INFO  15:40:51,261 - #43 int
+INFO  15:40:51,261 - #43 b
+INFO  15:40:51,261 - #26 .
+ERROR 15:40:51,261 - 
+Sintaksna greska na liniji 4
+INFO  15:40:51,261 - #8 ,
+INFO  15:40:51,262 - #43 int
+INFO  15:40:51,262 - #43 c
+INFO  15:40:51,262 - #13 )
+INFO  15:40:51,263 - #3 {
+INFO  15:40:51,267 - #43 i
+INFO  15:40:51,267 - #7 =
+INFO  15:40:51,267 - #44 2
+INFO  15:40:51,267 - #6 ;
+INFO  15:40:51,267 - #27 if
+INFO  15:40:51,267 - #12 (
+INFO  15:40:51,267 - #43 i
+INFO  15:40:51,267 - #37 ==
+INFO  15:40:51,267 - #44 2
+INFO  15:40:51,267 - #13 )
+INFO  15:40:51,267 - #17 print
+INFO  15:40:51,267 - #12 (
+INFO  15:40:51,268 - #20 -
+INFO  15:40:51,268 - #44 6
+INFO  15:40:51,268 - #13 )
+INFO  15:40:51,268 - #6 ;
+INFO  15:40:51,268 - #4 }
+INFO  15:40:51,268 - #4 }
+ERROR 15:40:51,268 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

@@ -1,0 +1,191 @@
+INFO  17:41:04,941 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:41:05,007 - #2 program
+INFO  17:41:05,007 - #43 Test
+INFO  17:41:05,007 - #5 const
+INFO  17:41:05,009 - #43 int
+INFO  17:41:05,009 - #43 pi
+INFO  17:41:05,010 - #7 =
+INFO  17:41:05,010 - #44 3
+INFO  17:41:05,010 - #6 ;
+INFO  17:41:05,012 - #43 int
+INFO  17:41:05,013 - #43 x
+INFO  17:41:05,014 - #8 ,
+INFO  17:41:05,014 - #43 y
+INFO  17:41:05,014 - #9 [
+INFO  17:41:05,014 - #10 ]
+INFO  17:41:05,015 - #6 ;
+INFO  17:41:05,017 - #3 {
+INFO  17:41:05,017 - #11 void
+INFO  17:41:05,019 - #43 ispis
+INFO  17:41:05,019 - #12 (
+INFO  17:41:05,019 - #13 )
+INFO  17:41:05,020 - #3 {
+INFO  17:41:05,023 - #17 print
+INFO  17:41:05,025 - #12 (
+INFO  17:41:05,025 - #44 1
+INFO  17:41:05,025 - #13 )
+INFO  17:41:05,027 - #6 ;
+INFO  17:41:05,027 - #4 }
+INFO  17:41:05,028 - #11 void
+INFO  17:41:05,029 - #43 main
+INFO  17:41:05,030 - #12 (
+INFO  17:41:05,030 - #13 )
+INFO  17:41:05,030 - #43 int
+INFO  17:41:05,030 - #43 a
+INFO  17:41:05,030 - #8 ,
+INFO  17:41:05,030 - #43 b
+INFO  17:41:05,030 - #8 ,
+INFO  17:41:05,030 - #43 c
+INFO  17:41:05,031 - #9 [
+INFO  17:41:05,031 - #10 ]
+INFO  17:41:05,031 - #6 ;
+INFO  17:41:05,031 - #43 char
+INFO  17:41:05,031 - #43 carr
+INFO  17:41:05,032 - #9 [
+INFO  17:41:05,032 - #10 ]
+INFO  17:41:05,032 - #6 ;
+INFO  17:41:05,032 - #3 {
+INFO  17:41:05,033 - #43 ispis
+INFO  17:41:05,033 - #12 (
+INFO  17:41:05,033 - #13 )
+INFO  17:41:05,035 - #6 ;
+INFO  17:41:05,035 - #4 }
+INFO  17:41:05,035 - #4 }
+INFO  17:41:05,044 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       x
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           ispis
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_s(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_pre(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_n(
+                       1
+                      ) [FactorList_n]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_pre]
+        ) [StatementList_s]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_e(
+          ) [NeedVarDeclList_e]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             a
+            ) [VarDecl_var]
+            VarDeclMore_v(
+              VarDecl_var(
+               b
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 c
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_dp(
+            Designator_v(
+             ispis
+            ) [Designator_v]
+            ParamsAct_e(
+              ActParNewList(
+              ) [ActParNewList]
+            ) [ParamsAct_e]
+          ) [DesignatorStatement_dp]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  17:41:05,044 - =====================================================================
+INFO  17:41:05,058 - =====================================================================
+INFO  17:41:05,064 - Generisanje uspesno zavrseno!

@@ -1,0 +1,226 @@
+INFO  13:02:58,027 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:02:58,100 - #2 program
+INFO  13:02:58,100 - #43 Test
+INFO  13:02:58,101 - #5 const
+INFO  13:02:58,102 - #43 int
+INFO  13:02:58,103 - #43 pi
+INFO  13:02:58,104 - #7 =
+INFO  13:02:58,104 - #44 3
+INFO  13:02:58,104 - #8 ,
+INFO  13:02:58,105 - #43 g
+INFO  13:02:58,105 - #7 =
+INFO  13:02:58,105 - #44 11
+INFO  13:02:58,105 - #6 ;
+INFO  13:02:58,106 - #43 char
+INFO  13:02:58,107 - #43 x
+INFO  13:02:58,107 - #8 ,
+INFO  13:02:58,107 - #43 y
+INFO  13:02:58,107 - #9 [
+INFO  13:02:58,108 - #10 ]
+INFO  13:02:58,108 - #6 ;
+INFO  13:02:58,109 - #5 const
+INFO  13:02:58,109 - #43 bool
+INFO  13:02:58,110 - #43 t
+INFO  13:02:58,111 - #7 =
+INFO  13:02:58,111 - #45 1
+INFO  13:02:58,111 - #6 ;
+INFO  13:02:58,111 - #3 {
+INFO  13:02:58,111 - #43 int
+INFO  13:02:58,112 - #43 p
+INFO  13:02:58,112 - #12 (
+INFO  13:02:58,113 - #43 int
+INFO  13:02:58,113 - #43 t
+INFO  13:02:58,113 - #13 )
+INFO  13:02:58,114 - #3 {
+INFO  13:02:58,116 - #4 }
+INFO  13:02:58,117 - #11 void
+INFO  13:02:58,119 - #43 main
+INFO  13:02:58,119 - #12 (
+INFO  13:02:58,119 - #13 )
+INFO  13:02:58,120 - #43 int
+INFO  13:02:58,120 - #43 a
+INFO  13:02:58,120 - #8 ,
+INFO  13:02:58,120 - #43 b
+INFO  13:02:58,121 - #9 [
+INFO  13:02:58,121 - #10 ]
+INFO  13:02:58,121 - #6 ;
+INFO  13:02:58,121 - #43 int
+INFO  13:02:58,121 - #43 x
+INFO  13:02:58,121 - #9 [
+INFO  13:02:58,121 - #10 ]
+INFO  13:02:58,121 - #8 ,
+INFO  13:02:58,121 - #43 y
+INFO  13:02:58,121 - #6 ;
+INFO  13:02:58,122 - #43 char
+INFO  13:02:58,122 - #43 eol
+INFO  13:02:58,122 - #6 ;
+INFO  13:02:58,122 - #3 {
+INFO  13:02:58,122 - #43 pi
+INFO  13:02:58,122 - #19 --
+INFO  13:02:58,122 - #6 ;
+INFO  13:02:58,123 - #4 }
+INFO  13:02:58,123 - #4 }
+INFO  13:02:58,133 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_con(
+        ConVarDecList_e(
+        ) [ConVarDecList_e]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pi
+            Const_n(
+             3
+            ) [Const_n]
+          ) [ConstDecl]
+          ConstDeclMore_comma(
+            ConstDecl(
+             g
+              Const_n(
+               11
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_e(
+            ) [ConstDeclMore_e]
+          ) [ConstDeclMore_comma]
+        ) [ConstDeclList]
+      ) [ConVarDecList_con]
+      VarDeclList_v(
+        Type(
+         char
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_arr(
+           y
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_t(
+            Type(
+             int
+            ) [Type]
+           p
+          ) [ReturnType_t]
+          FormPars_fmore(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             t
+            ) [FormPar_var]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormPars_fmore]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_dec(
+            Designator_v(
+             pi
+            ) [Designator_v]
+          ) [DesignatorStatement_dec]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  13:02:58,133 - =====================================================================
+ERROR 13:02:58,143 - Dekrement neadekvatne promenljive pi na liniji 32
+INFO  13:02:58,144 - =====================================================================
+ERROR 13:02:58,144 - Parsiranje NIJE uspesno zavrseno!

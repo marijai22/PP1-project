@@ -1,0 +1,101 @@
+INFO  17:42:05,296 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\test303.mj
+INFO  17:42:05,392 - #2 program
+INFO  17:42:05,392 - #43 Test
+INFO  17:42:05,392 - #43 set
+INFO  17:42:05,396 - #43 s1
+INFO  17:42:05,397 - #6 ;
+INFO  17:42:05,398 - #3 {
+INFO  17:42:05,398 - #11 void
+INFO  17:42:05,399 - #43 main
+INFO  17:42:05,399 - #12 (
+INFO  17:42:05,399 - #13 )
+INFO  17:42:05,400 - #3 {
+INFO  17:42:05,403 - #43 s1
+INFO  17:42:05,404 - #7 =
+INFO  17:42:05,405 - #21 new
+INFO  17:42:05,407 - #43 int
+INFO  17:42:05,407 - #9 [
+INFO  17:42:05,407 - #44 5
+INFO  17:42:05,407 - #10 ]
+INFO  17:42:05,409 - #6 ;
+INFO  17:42:05,410 - #4 }
+INFO  17:42:05,410 - #4 }
+INFO  17:42:05,417 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_e(
+    ) [ConVarDecList_e]
+    VarDeclList_v(
+      Type(
+       set
+      ) [Type]
+      VarDecl_var(
+       s1
+      ) [VarDecl_var]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_ds(
+          DesignatorStatement_ass(
+            Designator_v(
+             s1
+            ) [Designator_v]
+            Assignop(
+            ) [Assignop]
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_new_coll(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_a(
+                          AddopTermList_t(
+                            Term(
+                              MulOpFact_f(
+                                Factor_f(
+                                  FactorList_n(
+                                   5
+                                  ) [FactorList_n]
+                                ) [Factor_f]
+                              ) [MulOpFact_f]
+                            ) [Term]
+                          ) [AddopTermList_t]
+                        ) [Expr_a]
+                      ) [FactorList_new_coll]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [DesignatorStatement_ass]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  17:42:05,418 - =====================================================================
+ERROR 17:42:05,428 - Neadekvatna dodela vrednosti u promenljivu s1 na liniji 7
+INFO  17:42:05,428 - =====================================================================
+ERROR 17:42:05,429 - Parsiranje NIJE uspesno zavrseno!

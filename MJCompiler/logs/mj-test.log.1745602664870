@@ -1,0 +1,147 @@
+INFO  19:37:26,535 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:37:26,592 - #2 program
+INFO  19:37:26,593 - #43 Test
+INFO  19:37:26,593 - #5 const
+INFO  19:37:26,594 - #43 int
+INFO  19:37:26,595 - #43 pi
+INFO  19:37:26,595 - #7 =
+INFO  19:37:26,596 - #44 3
+INFO  19:37:26,596 - #6 ;
+INFO  19:37:26,598 - #43 int
+INFO  19:37:26,599 - #43 x
+INFO  19:37:26,599 - #8 ,
+INFO  19:37:26,599 - #43 y
+INFO  19:37:26,599 - #9 [
+INFO  19:37:26,600 - #10 ]
+INFO  19:37:26,600 - #6 ;
+INFO  19:37:26,602 - #3 {
+INFO  19:37:26,602 - #11 void
+INFO  19:37:26,604 - #43 main
+INFO  19:37:26,604 - #12 (
+INFO  19:37:26,604 - #13 )
+INFO  19:37:26,606 - #43 int
+INFO  19:37:26,608 - #43 a
+INFO  19:37:26,609 - #8 ,
+INFO  19:37:26,610 - #43 b
+INFO  19:37:26,610 - #6 ;
+INFO  19:37:26,610 - #43 char
+INFO  19:37:26,610 - #43 carr
+INFO  19:37:26,610 - #9 [
+INFO  19:37:26,610 - #10 ]
+INFO  19:37:26,610 - #6 ;
+INFO  19:37:26,610 - #3 {
+INFO  19:37:26,611 - #17 print
+INFO  19:37:26,611 - #12 (
+INFO  19:37:26,612 - #43 carr
+INFO  19:37:26,612 - #13 )
+INFO  19:37:26,613 - #6 ;
+INFO  19:37:26,613 - #4 }
+INFO  19:37:26,614 - #4 }
+INFO  19:37:26,620 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_con(
+      ConVarDecList_e(
+      ) [ConVarDecList_e]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          Const_n(
+           3
+          ) [Const_n]
+        ) [ConstDecl]
+        ConstDeclMore_e(
+        ) [ConstDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDecList_con]
+    VarDeclList_v(
+      Type(
+       int
+      ) [Type]
+      VarDecl_var(
+       x
+      ) [VarDecl_var]
+      VarDeclMore_v(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_v]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_e(
+          ) [NeedVarDeclList_e]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_var(
+             a
+            ) [VarDecl_var]
+            VarDeclMore_v(
+              VarDecl_var(
+               b
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_pre(
+          Expr_a(
+            AddopTermList_t(
+              Term(
+                MulOpFact_f(
+                  Factor_f(
+                    FactorList_var(
+                      Designator_v(
+                       carr
+                      ) [Designator_v]
+                    ) [FactorList_var]
+                  ) [Factor_f]
+                ) [MulOpFact_f]
+              ) [Term]
+            ) [AddopTermList_t]
+          ) [Expr_a]
+        ) [Statement_pre]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:37:26,621 - =====================================================================
+ERROR 19:37:26,632 - Print operacija ne int/char/bool/set vrednosti  na liniji 15
+INFO  19:37:26,632 - =====================================================================
+ERROR 19:37:26,633 - Parsiranje NIJE uspesno zavrseno!

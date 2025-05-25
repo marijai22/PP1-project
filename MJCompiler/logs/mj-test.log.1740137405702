@@ -1,0 +1,11 @@
+INFO  12:23:08,414 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:23:08,468 - #2 program
+INFO  12:23:08,468 - #43 test302
+INFO  12:23:08,468 - #43 int
+INFO  12:23:08,469 - #43 a
+INFO  12:23:08,470 - #8 ,
+INFO  12:23:08,471 - #43 int
+INFO  12:23:08,472 - #43 b
+ERROR 12:23:08,472 - 
+Sintaksna greska na liniji 2
+ERROR 12:23:08,472 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

@@ -1,0 +1,165 @@
+INFO  21:20:40,935 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:20:40,992 - #2 program
+INFO  21:20:40,992 - #43 Test
+INFO  21:20:40,992 - #5 const
+INFO  21:20:40,994 - #43 int
+INFO  21:20:40,994 - #43 pi
+INFO  21:20:40,995 - #7 =
+INFO  21:20:40,995 - #44 3
+INFO  21:20:40,995 - #8 ,
+INFO  21:20:40,997 - #43 g
+INFO  21:20:40,997 - #7 =
+INFO  21:20:40,997 - #44 11
+INFO  21:20:40,997 - #6 ;
+INFO  21:20:40,998 - #43 char
+INFO  21:20:40,999 - #43 x
+INFO  21:20:40,999 - #8 ,
+INFO  21:20:41,000 - #43 y
+INFO  21:20:41,000 - #9 [
+INFO  21:20:41,000 - #10 ]
+INFO  21:20:41,000 - #6 ;
+INFO  21:20:41,002 - #43 set
+INFO  21:20:41,002 - #43 s1
+INFO  21:20:41,002 - #6 ;
+INFO  21:20:41,003 - #5 const
+INFO  21:20:41,004 - #43 bool
+INFO  21:20:41,004 - #43 t
+INFO  21:20:41,004 - #7 =
+INFO  21:20:41,004 - #45 1
+INFO  21:20:41,004 - #6 ;
+INFO  21:20:41,004 - #3 {
+INFO  21:20:41,004 - #11 void
+INFO  21:20:41,005 - #43 main
+INFO  21:20:41,005 - #12 (
+INFO  21:20:41,006 - #13 )
+INFO  21:20:41,006 - #3 {
+INFO  21:20:41,008 - #4 }
+INFO  21:20:41,009 - #43 int
+INFO  21:20:41,010 - #43 method
+INFO  21:20:41,010 - #12 (
+INFO  21:20:41,010 - #43 int
+INFO  21:20:41,010 - #43 c
+INFO  21:20:41,011 - #13 )
+INFO  21:20:41,012 - #3 {
+INFO  21:20:41,012 - #4 }
+INFO  21:20:41,012 - #4 }
+INFO  21:20:41,018 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         set
+        ) [Type]
+        VarDecl_var(
+         s1
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           int
+          ) [Type]
+         method
+        ) [ReturnType_t]
+        FormPars_fmore(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           c
+          ) [FormPar_var]
+          FormParsMore_e(
+          ) [FormParsMore_e]
+        ) [FormPars_fmore]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:20:41,018 - =====================================================================
+INFO  21:20:41,028 - =====================================================================
+INFO  21:20:41,028 - Parsiranje uspesno zavrseno!

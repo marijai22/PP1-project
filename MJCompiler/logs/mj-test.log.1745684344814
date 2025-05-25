@@ -1,0 +1,1423 @@
+INFO  18:18:46,261 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\test301_A.mj
+INFO  18:18:46,331 - #2 program
+INFO  18:18:46,332 - #43 test301
+INFO  18:18:46,332 - #5 const
+INFO  18:18:46,333 - #43 int
+INFO  18:18:46,333 - #43 nula
+INFO  18:18:46,334 - #7 =
+INFO  18:18:46,335 - #44 0
+INFO  18:18:46,335 - #6 ;
+INFO  18:18:46,337 - #5 const
+INFO  18:18:46,338 - #43 int
+INFO  18:18:46,339 - #43 jedan
+INFO  18:18:46,339 - #7 =
+INFO  18:18:46,339 - #44 1
+INFO  18:18:46,339 - #6 ;
+INFO  18:18:46,339 - #5 const
+INFO  18:18:46,339 - #43 int
+INFO  18:18:46,340 - #43 pet
+INFO  18:18:46,340 - #7 =
+INFO  18:18:46,340 - #44 5
+INFO  18:18:46,340 - #6 ;
+INFO  18:18:46,340 - #43 int
+INFO  18:18:46,341 - #43 niz
+INFO  18:18:46,341 - #9 [
+INFO  18:18:46,341 - #10 ]
+INFO  18:18:46,341 - #6 ;
+INFO  18:18:46,342 - #43 char
+INFO  18:18:46,342 - #43 nizch
+INFO  18:18:46,342 - #9 [
+INFO  18:18:46,343 - #10 ]
+INFO  18:18:46,343 - #6 ;
+INFO  18:18:46,343 - #3 {
+INFO  18:18:46,343 - #11 void
+INFO  18:18:46,344 - #43 main
+INFO  18:18:46,344 - #12 (
+INFO  18:18:46,344 - #13 )
+INFO  18:18:46,345 - #43 int
+INFO  18:18:46,347 - #43 bodovi
+INFO  18:18:46,347 - #6 ;
+INFO  18:18:46,348 - #3 {
+INFO  18:18:46,348 - #43 bodovi
+INFO  18:18:46,349 - #7 =
+INFO  18:18:46,349 - #44 0
+INFO  18:18:46,350 - #6 ;
+INFO  18:18:46,351 - #43 bodovi
+INFO  18:18:46,352 - #18 ++
+INFO  18:18:46,352 - #6 ;
+INFO  18:18:46,352 - #43 bodovi
+INFO  18:18:46,352 - #7 =
+INFO  18:18:46,352 - #43 bodovi
+INFO  18:18:46,352 - #22 +
+INFO  18:18:46,352 - #43 jedan
+INFO  18:18:46,354 - #6 ;
+INFO  18:18:46,354 - #43 bodovi
+INFO  18:18:46,354 - #7 =
+INFO  18:18:46,355 - #43 bodovi
+INFO  18:18:46,355 - #23 *
+INFO  18:18:46,355 - #43 pet
+INFO  18:18:46,356 - #6 ;
+INFO  18:18:46,357 - #43 bodovi
+INFO  18:18:46,357 - #19 --
+INFO  18:18:46,357 - #6 ;
+INFO  18:18:46,357 - #17 print
+INFO  18:18:46,357 - #12 (
+INFO  18:18:46,357 - #43 bodovi
+INFO  18:18:46,358 - #13 )
+INFO  18:18:46,358 - #6 ;
+INFO  18:18:46,358 - #43 niz
+INFO  18:18:46,358 - #7 =
+INFO  18:18:46,358 - #21 new
+INFO  18:18:46,358 - #43 int
+INFO  18:18:46,358 - #9 [
+INFO  18:18:46,358 - #44 3
+INFO  18:18:46,358 - #10 ]
+INFO  18:18:46,358 - #6 ;
+INFO  18:18:46,358 - #43 niz
+INFO  18:18:46,359 - #9 [
+INFO  18:18:46,360 - #43 nula
+INFO  18:18:46,360 - #10 ]
+INFO  18:18:46,360 - #7 =
+INFO  18:18:46,360 - #43 jedan
+INFO  18:18:46,360 - #6 ;
+INFO  18:18:46,360 - #43 niz
+INFO  18:18:46,360 - #9 [
+INFO  18:18:46,360 - #44 1
+INFO  18:18:46,360 - #10 ]
+INFO  18:18:46,361 - #7 =
+INFO  18:18:46,361 - #44 2
+INFO  18:18:46,361 - #6 ;
+INFO  18:18:46,361 - #43 niz
+INFO  18:18:46,361 - #9 [
+INFO  18:18:46,361 - #43 niz
+INFO  18:18:46,361 - #9 [
+INFO  18:18:46,361 - #43 jedan
+INFO  18:18:46,361 - #10 ]
+INFO  18:18:46,361 - #10 ]
+INFO  18:18:46,362 - #7 =
+INFO  18:18:46,362 - #43 niz
+INFO  18:18:46,362 - #9 [
+INFO  18:18:46,362 - #43 niz
+INFO  18:18:46,362 - #9 [
+INFO  18:18:46,362 - #44 0
+INFO  18:18:46,362 - #10 ]
+INFO  18:18:46,362 - #10 ]
+INFO  18:18:46,362 - #23 *
+INFO  18:18:46,362 - #44 3
+INFO  18:18:46,362 - #6 ;
+INFO  18:18:46,363 - #43 bodovi
+INFO  18:18:46,363 - #7 =
+INFO  18:18:46,363 - #43 niz
+INFO  18:18:46,363 - #9 [
+INFO  18:18:46,363 - #44 2
+INFO  18:18:46,363 - #10 ]
+INFO  18:18:46,363 - #24 /
+INFO  18:18:46,363 - #43 niz
+INFO  18:18:46,364 - #9 [
+INFO  18:18:46,364 - #44 0
+INFO  18:18:46,364 - #10 ]
+INFO  18:18:46,364 - #6 ;
+INFO  18:18:46,364 - #17 print
+INFO  18:18:46,364 - #12 (
+INFO  18:18:46,364 - #43 bodovi
+INFO  18:18:46,364 - #13 )
+INFO  18:18:46,365 - #6 ;
+INFO  18:18:46,365 - #17 print
+INFO  18:18:46,365 - #12 (
+INFO  18:18:46,365 - #43 niz
+INFO  18:18:46,365 - #9 [
+INFO  18:18:46,365 - #44 2
+INFO  18:18:46,365 - #10 ]
+INFO  18:18:46,365 - #13 )
+INFO  18:18:46,365 - #6 ;
+INFO  18:18:46,365 - #43 nizch
+INFO  18:18:46,365 - #7 =
+INFO  18:18:46,366 - #21 new
+INFO  18:18:46,366 - #43 char
+INFO  18:18:46,366 - #9 [
+INFO  18:18:46,366 - #44 3
+INFO  18:18:46,366 - #10 ]
+INFO  18:18:46,366 - #6 ;
+INFO  18:18:46,366 - #43 nizch
+INFO  18:18:46,366 - #9 [
+INFO  18:18:46,366 - #44 0
+INFO  18:18:46,366 - #10 ]
+INFO  18:18:46,366 - #7 =
+INFO  18:18:46,366 - #46 a
+INFO  18:18:46,367 - #6 ;
+INFO  18:18:46,367 - #43 nizch
+INFO  18:18:46,367 - #9 [
+INFO  18:18:46,367 - #43 jedan
+INFO  18:18:46,367 - #10 ]
+INFO  18:18:46,367 - #7 =
+INFO  18:18:46,367 - #46 b
+INFO  18:18:46,367 - #6 ;
+INFO  18:18:46,367 - #43 nizch
+INFO  18:18:46,367 - #9 [
+INFO  18:18:46,367 - #43 pet
+INFO  18:18:46,367 - #20 -
+INFO  18:18:46,368 - #44 3
+INFO  18:18:46,368 - #10 ]
+INFO  18:18:46,368 - #7 =
+INFO  18:18:46,369 - #46 c
+INFO  18:18:46,369 - #6 ;
+INFO  18:18:46,369 - #17 print
+INFO  18:18:46,369 - #12 (
+INFO  18:18:46,369 - #43 nizch
+INFO  18:18:46,369 - #9 [
+INFO  18:18:46,369 - #44 1
+INFO  18:18:46,369 - #10 ]
+INFO  18:18:46,369 - #13 )
+INFO  18:18:46,370 - #6 ;
+INFO  18:18:46,370 - #17 print
+INFO  18:18:46,370 - #12 (
+INFO  18:18:46,370 - #43 nizch
+INFO  18:18:46,370 - #9 [
+INFO  18:18:46,370 - #43 jedan
+INFO  18:18:46,370 - #23 *
+INFO  18:18:46,370 - #44 2
+INFO  18:18:46,370 - #10 ]
+INFO  18:18:46,370 - #13 )
+INFO  18:18:46,370 - #6 ;
+INFO  18:18:46,371 - #43 bodovi
+INFO  18:18:46,371 - #7 =
+INFO  18:18:46,371 - #43 bodovi
+INFO  18:18:46,371 - #22 +
+INFO  18:18:46,371 - #12 (
+INFO  18:18:46,371 - #43 pet
+INFO  18:18:46,371 - #23 *
+INFO  18:18:46,371 - #43 jedan
+INFO  18:18:46,371 - #20 -
+INFO  18:18:46,371 - #44 1
+INFO  18:18:46,371 - #13 )
+INFO  18:18:46,371 - #23 *
+INFO  18:18:46,371 - #43 bodovi
+INFO  18:18:46,371 - #20 -
+INFO  18:18:46,371 - #12 (
+INFO  18:18:46,372 - #44 3
+INFO  18:18:46,372 - #25 %
+INFO  18:18:46,372 - #44 2
+INFO  18:18:46,373 - #22 +
+INFO  18:18:46,373 - #44 3
+INFO  18:18:46,373 - #23 *
+INFO  18:18:46,373 - #44 2
+INFO  18:18:46,373 - #20 -
+INFO  18:18:46,373 - #44 3
+INFO  18:18:46,373 - #13 )
+INFO  18:18:46,373 - #6 ;
+INFO  18:18:46,373 - #17 print
+INFO  18:18:46,373 - #12 (
+INFO  18:18:46,374 - #43 bodovi
+INFO  18:18:46,374 - #13 )
+INFO  18:18:46,374 - #6 ;
+INFO  18:18:46,374 - #16 read
+INFO  18:18:46,374 - #12 (
+INFO  18:18:46,374 - #43 bodovi
+INFO  18:18:46,374 - #13 )
+INFO  18:18:46,374 - #6 ;
+INFO  18:18:46,374 - #17 print
+INFO  18:18:46,374 - #12 (
+INFO  18:18:46,374 - #43 bodovi
+INFO  18:18:46,374 - #13 )
+INFO  18:18:46,374 - #6 ;
+INFO  18:18:46,374 - #43 bodovi
+INFO  18:18:46,374 - #18 ++
+INFO  18:18:46,374 - #6 ;
+INFO  18:18:46,374 - #43 goto
+INFO  18:18:46,374 - #43 labela1
+ERROR 18:18:46,375 - 
+Sintaksna greska na liniji 48
+INFO  18:18:46,375 - #6 ;
+INFO  18:18:46,375 - #43 bodovi
+INFO  18:18:46,375 - #7 =
+INFO  18:18:46,376 - #43 bodovi
+ERROR 18:18:46,380 - Oporavak od greske u DS. Linija: 1
+INFO  18:18:46,381 - #23 *
+INFO  18:18:46,381 - #44 2
+INFO  18:18:46,381 - #6 ;
+INFO  18:18:46,381 - #43 bodovi
+INFO  18:18:46,381 - #19 --
+INFO  18:18:46,382 - #6 ;
+INFO  18:18:46,382 - #43 labela1
+INFO  18:18:46,382 - #14 :
+ERROR 18:18:46,382 - 
+Sintaksna greska na liniji 51
+INFO  18:18:46,382 - #43 bodovi
+INFO  18:18:46,382 - #7 =
+INFO  18:18:46,382 - #43 bodovi
+INFO  18:18:46,382 - #22 +
+INFO  18:18:46,382 - #44 3
+INFO  18:18:46,382 - #6 ;
+INFO  18:18:46,382 - #17 print
+INFO  18:18:46,383 - #12 (
+INFO  18:18:46,383 - #43 bodovi
+ERROR 18:18:46,383 - Oporavak od greske u DS. Linija: 1
+INFO  18:18:46,383 - #13 )
+INFO  18:18:46,385 - #6 ;
+INFO  18:18:46,385 - #17 print
+INFO  18:18:46,385 - #12 (
+INFO  18:18:46,386 - #46 +
+INFO  18:18:46,386 - #13 )
+INFO  18:18:46,386 - #6 ;
+INFO  18:18:46,386 - #43 labelaminus
+INFO  18:18:46,386 - #14 :
+ERROR 18:18:46,386 - 
+Sintaksna greska na liniji 56
+INFO  18:18:46,386 - #17 print
+INFO  18:18:46,386 - #12 (
+INFO  18:18:46,386 - #46 -
+INFO  18:18:46,386 - #13 )
+INFO  18:18:46,386 - #6 ;
+INFO  18:18:46,387 - #4 }
+INFO  18:18:46,388 - #4 }
+ERROR 18:18:46,388 - Oporavak od greske u DS. Linija: 1
+INFO  18:18:46,404 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDecList_var(
+    ConVarDecList_var(
+      ConVarDecList_con(
+        ConVarDecList_con(
+          ConVarDecList_con(
+            ConVarDecList_e(
+            ) [ConVarDecList_e]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               nula
+                Const_n(
+                 0
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclList]
+          ) [ConVarDecList_con]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             jedan
+              Const_n(
+               1
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_e(
+            ) [ConstDeclMore_e]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pet
+            Const_n(
+             5
+            ) [Const_n]
+          ) [ConstDecl]
+          ConstDeclMore_e(
+          ) [ConstDeclMore_e]
+        ) [ConstDeclList]
+      ) [ConVarDecList_con]
+      VarDeclList_v(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         niz
+        ) [VarDecl_arr]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    VarDeclList_v(
+      Type(
+       char
+      ) [Type]
+      VarDecl_arr(
+       nizch
+      ) [VarDecl_arr]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList_v]
+  ) [ConVarDecList_var]
+  MethodDeclList_m(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        VarDeclList_v(
+          Type(
+           int
+          ) [Type]
+          VarDecl_var(
+           bodovi
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_s(
+        StatementList_s(
+          StatementList_s(
+            StatementList_s(
+              StatementList_s(
+                StatementList_s(
+                  StatementList_s(
+                    StatementList_s(
+                      StatementList_s(
+                        StatementList_s(
+                          StatementList_s(
+                            StatementList_s(
+                              StatementList_s(
+                                StatementList_s(
+                                  StatementList_s(
+                                    StatementList_s(
+                                      StatementList_s(
+                                        StatementList_s(
+                                          StatementList_s(
+                                            StatementList_s(
+                                              StatementList_s(
+                                                StatementList_s(
+                                                  StatementList_s(
+                                                    StatementList_s(
+                                                      StatementList_s(
+                                                        StatementList_s(
+                                                          StatementList_s(
+                                                            StatementList_s(
+                                                              StatementList_s(
+                                                                StatementList_s(
+                                                                  StatementList_s(
+                                                                    StatementList_e(
+                                                                    ) [StatementList_e]
+                                                                    Statement_ds(
+                                                                      DesignatorStatement_ass(
+                                                                        Designator_v(
+                                                                         bodovi
+                                                                        ) [Designator_v]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        Expr_a(
+                                                                          AddopTermList_t(
+                                                                            Term(
+                                                                              MulOpFact_f(
+                                                                                Factor_f(
+                                                                                  FactorList_n(
+                                                                                   0
+                                                                                  ) [FactorList_n]
+                                                                                ) [Factor_f]
+                                                                              ) [MulOpFact_f]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_t]
+                                                                        ) [Expr_a]
+                                                                      ) [DesignatorStatement_ass]
+                                                                    ) [Statement_ds]
+                                                                  ) [StatementList_s]
+                                                                  Statement_ds(
+                                                                    DesignatorStatement_inc(
+                                                                      Designator_v(
+                                                                       bodovi
+                                                                      ) [Designator_v]
+                                                                    ) [DesignatorStatement_inc]
+                                                                  ) [Statement_ds]
+                                                                ) [StatementList_s]
+                                                                Statement_ds(
+                                                                  DesignatorStatement_ass(
+                                                                    Designator_v(
+                                                                     bodovi
+                                                                    ) [Designator_v]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    Expr_a(
+                                                                      AddopTermList_at(
+                                                                        AddopTermList_t(
+                                                                          Term(
+                                                                            MulOpFact_f(
+                                                                              Factor_f(
+                                                                                FactorList_var(
+                                                                                  Designator_v(
+                                                                                   bodovi
+                                                                                  ) [Designator_v]
+                                                                                ) [FactorList_var]
+                                                                              ) [Factor_f]
+                                                                            ) [MulOpFact_f]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_t]
+                                                                        Addop_plus(
+                                                                        ) [Addop_plus]
+                                                                        Term(
+                                                                          MulOpFact_f(
+                                                                            Factor_f(
+                                                                              FactorList_var(
+                                                                                Designator_v(
+                                                                                 jedan
+                                                                                ) [Designator_v]
+                                                                              ) [FactorList_var]
+                                                                            ) [Factor_f]
+                                                                          ) [MulOpFact_f]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_at]
+                                                                    ) [Expr_a]
+                                                                  ) [DesignatorStatement_ass]
+                                                                ) [Statement_ds]
+                                                              ) [StatementList_s]
+                                                              Statement_ds(
+                                                                DesignatorStatement_ass(
+                                                                  Designator_v(
+                                                                   bodovi
+                                                                  ) [Designator_v]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr_a(
+                                                                    AddopTermList_t(
+                                                                      Term(
+                                                                        MulOpFact_mf(
+                                                                          MulOpFact_f(
+                                                                            Factor_f(
+                                                                              FactorList_var(
+                                                                                Designator_v(
+                                                                                 bodovi
+                                                                                ) [Designator_v]
+                                                                              ) [FactorList_var]
+                                                                            ) [Factor_f]
+                                                                          ) [MulOpFact_f]
+                                                                          Mulop_mul(
+                                                                          ) [Mulop_mul]
+                                                                          Factor_f(
+                                                                            FactorList_var(
+                                                                              Designator_v(
+                                                                               pet
+                                                                              ) [Designator_v]
+                                                                            ) [FactorList_var]
+                                                                          ) [Factor_f]
+                                                                        ) [MulOpFact_mf]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_t]
+                                                                  ) [Expr_a]
+                                                                ) [DesignatorStatement_ass]
+                                                              ) [Statement_ds]
+                                                            ) [StatementList_s]
+                                                            Statement_ds(
+                                                              DesignatorStatement_dec(
+                                                                Designator_v(
+                                                                 bodovi
+                                                                ) [Designator_v]
+                                                              ) [DesignatorStatement_dec]
+                                                            ) [Statement_ds]
+                                                          ) [StatementList_s]
+                                                          Statement_pre(
+                                                            Expr_a(
+                                                              AddopTermList_t(
+                                                                Term(
+                                                                  MulOpFact_f(
+                                                                    Factor_f(
+                                                                      FactorList_var(
+                                                                        Designator_v(
+                                                                         bodovi
+                                                                        ) [Designator_v]
+                                                                      ) [FactorList_var]
+                                                                    ) [Factor_f]
+                                                                  ) [MulOpFact_f]
+                                                                ) [Term]
+                                                              ) [AddopTermList_t]
+                                                            ) [Expr_a]
+                                                          ) [Statement_pre]
+                                                        ) [StatementList_s]
+                                                        Statement_ds(
+                                                          DesignatorStatement_ass(
+                                                            Designator_v(
+                                                             niz
+                                                            ) [Designator_v]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            Expr_a(
+                                                              AddopTermList_t(
+                                                                Term(
+                                                                  MulOpFact_f(
+                                                                    Factor_f(
+                                                                      FactorList_new_coll(
+                                                                        Type(
+                                                                         int
+                                                                        ) [Type]
+                                                                        Expr_a(
+                                                                          AddopTermList_t(
+                                                                            Term(
+                                                                              MulOpFact_f(
+                                                                                Factor_f(
+                                                                                  FactorList_n(
+                                                                                   3
+                                                                                  ) [FactorList_n]
+                                                                                ) [Factor_f]
+                                                                              ) [MulOpFact_f]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_t]
+                                                                        ) [Expr_a]
+                                                                      ) [FactorList_new_coll]
+                                                                    ) [Factor_f]
+                                                                  ) [MulOpFact_f]
+                                                                ) [Term]
+                                                              ) [AddopTermList_t]
+                                                            ) [Expr_a]
+                                                          ) [DesignatorStatement_ass]
+                                                        ) [Statement_ds]
+                                                      ) [StatementList_s]
+                                                      Statement_ds(
+                                                        DesignatorStatement_ass(
+                                                          Designator_arr(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            Expr_a(
+                                                              AddopTermList_t(
+                                                                Term(
+                                                                  MulOpFact_f(
+                                                                    Factor_f(
+                                                                      FactorList_var(
+                                                                        Designator_v(
+                                                                         nula
+                                                                        ) [Designator_v]
+                                                                      ) [FactorList_var]
+                                                                    ) [Factor_f]
+                                                                  ) [MulOpFact_f]
+                                                                ) [Term]
+                                                              ) [AddopTermList_t]
+                                                            ) [Expr_a]
+                                                          ) [Designator_arr]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          Expr_a(
+                                                            AddopTermList_t(
+                                                              Term(
+                                                                MulOpFact_f(
+                                                                  Factor_f(
+                                                                    FactorList_var(
+                                                                      Designator_v(
+                                                                       jedan
+                                                                      ) [Designator_v]
+                                                                    ) [FactorList_var]
+                                                                  ) [Factor_f]
+                                                                ) [MulOpFact_f]
+                                                              ) [Term]
+                                                            ) [AddopTermList_t]
+                                                          ) [Expr_a]
+                                                        ) [DesignatorStatement_ass]
+                                                      ) [Statement_ds]
+                                                    ) [StatementList_s]
+                                                    Statement_ds(
+                                                      DesignatorStatement_ass(
+                                                        Designator_arr(
+                                                          DesignatorName(
+                                                           niz
+                                                          ) [DesignatorName]
+                                                          Expr_a(
+                                                            AddopTermList_t(
+                                                              Term(
+                                                                MulOpFact_f(
+                                                                  Factor_f(
+                                                                    FactorList_n(
+                                                                     1
+                                                                    ) [FactorList_n]
+                                                                  ) [Factor_f]
+                                                                ) [MulOpFact_f]
+                                                              ) [Term]
+                                                            ) [AddopTermList_t]
+                                                          ) [Expr_a]
+                                                        ) [Designator_arr]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Expr_a(
+                                                          AddopTermList_t(
+                                                            Term(
+                                                              MulOpFact_f(
+                                                                Factor_f(
+                                                                  FactorList_n(
+                                                                   2
+                                                                  ) [FactorList_n]
+                                                                ) [Factor_f]
+                                                              ) [MulOpFact_f]
+                                                            ) [Term]
+                                                          ) [AddopTermList_t]
+                                                        ) [Expr_a]
+                                                      ) [DesignatorStatement_ass]
+                                                    ) [Statement_ds]
+                                                  ) [StatementList_s]
+                                                  Statement_ds(
+                                                    DesignatorStatement_ass(
+                                                      Designator_arr(
+                                                        DesignatorName(
+                                                         niz
+                                                        ) [DesignatorName]
+                                                        Expr_a(
+                                                          AddopTermList_t(
+                                                            Term(
+                                                              MulOpFact_f(
+                                                                Factor_f(
+                                                                  FactorList_var(
+                                                                    Designator_arr(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                      Expr_a(
+                                                                        AddopTermList_t(
+                                                                          Term(
+                                                                            MulOpFact_f(
+                                                                              Factor_f(
+                                                                                FactorList_var(
+                                                                                  Designator_v(
+                                                                                   jedan
+                                                                                  ) [Designator_v]
+                                                                                ) [FactorList_var]
+                                                                              ) [Factor_f]
+                                                                            ) [MulOpFact_f]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_t]
+                                                                      ) [Expr_a]
+                                                                    ) [Designator_arr]
+                                                                  ) [FactorList_var]
+                                                                ) [Factor_f]
+                                                              ) [MulOpFact_f]
+                                                            ) [Term]
+                                                          ) [AddopTermList_t]
+                                                        ) [Expr_a]
+                                                      ) [Designator_arr]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      Expr_a(
+                                                        AddopTermList_t(
+                                                          Term(
+                                                            MulOpFact_mf(
+                                                              MulOpFact_f(
+                                                                Factor_f(
+                                                                  FactorList_var(
+                                                                    Designator_arr(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                      Expr_a(
+                                                                        AddopTermList_t(
+                                                                          Term(
+                                                                            MulOpFact_f(
+                                                                              Factor_f(
+                                                                                FactorList_var(
+                                                                                  Designator_arr(
+                                                                                    DesignatorName(
+                                                                                     niz
+                                                                                    ) [DesignatorName]
+                                                                                    Expr_a(
+                                                                                      AddopTermList_t(
+                                                                                        Term(
+                                                                                          MulOpFact_f(
+                                                                                            Factor_f(
+                                                                                              FactorList_n(
+                                                                                               0
+                                                                                              ) [FactorList_n]
+                                                                                            ) [Factor_f]
+                                                                                          ) [MulOpFact_f]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_t]
+                                                                                    ) [Expr_a]
+                                                                                  ) [Designator_arr]
+                                                                                ) [FactorList_var]
+                                                                              ) [Factor_f]
+                                                                            ) [MulOpFact_f]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_t]
+                                                                      ) [Expr_a]
+                                                                    ) [Designator_arr]
+                                                                  ) [FactorList_var]
+                                                                ) [Factor_f]
+                                                              ) [MulOpFact_f]
+                                                              Mulop_mul(
+                                                              ) [Mulop_mul]
+                                                              Factor_f(
+                                                                FactorList_n(
+                                                                 3
+                                                                ) [FactorList_n]
+                                                              ) [Factor_f]
+                                                            ) [MulOpFact_mf]
+                                                          ) [Term]
+                                                        ) [AddopTermList_t]
+                                                      ) [Expr_a]
+                                                    ) [DesignatorStatement_ass]
+                                                  ) [Statement_ds]
+                                                ) [StatementList_s]
+                                                Statement_ds(
+                                                  DesignatorStatement_ass(
+                                                    Designator_v(
+                                                     bodovi
+                                                    ) [Designator_v]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    Expr_a(
+                                                      AddopTermList_t(
+                                                        Term(
+                                                          MulOpFact_mf(
+                                                            MulOpFact_f(
+                                                              Factor_f(
+                                                                FactorList_var(
+                                                                  Designator_arr(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                    Expr_a(
+                                                                      AddopTermList_t(
+                                                                        Term(
+                                                                          MulOpFact_f(
+                                                                            Factor_f(
+                                                                              FactorList_n(
+                                                                               2
+                                                                              ) [FactorList_n]
+                                                                            ) [Factor_f]
+                                                                          ) [MulOpFact_f]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_t]
+                                                                    ) [Expr_a]
+                                                                  ) [Designator_arr]
+                                                                ) [FactorList_var]
+                                                              ) [Factor_f]
+                                                            ) [MulOpFact_f]
+                                                            Mulop_div(
+                                                            ) [Mulop_div]
+                                                            Factor_f(
+                                                              FactorList_var(
+                                                                Designator_arr(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                  Expr_a(
+                                                                    AddopTermList_t(
+                                                                      Term(
+                                                                        MulOpFact_f(
+                                                                          Factor_f(
+                                                                            FactorList_n(
+                                                                             0
+                                                                            ) [FactorList_n]
+                                                                          ) [Factor_f]
+                                                                        ) [MulOpFact_f]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_t]
+                                                                  ) [Expr_a]
+                                                                ) [Designator_arr]
+                                                              ) [FactorList_var]
+                                                            ) [Factor_f]
+                                                          ) [MulOpFact_mf]
+                                                        ) [Term]
+                                                      ) [AddopTermList_t]
+                                                    ) [Expr_a]
+                                                  ) [DesignatorStatement_ass]
+                                                ) [Statement_ds]
+                                              ) [StatementList_s]
+                                              Statement_pre(
+                                                Expr_a(
+                                                  AddopTermList_t(
+                                                    Term(
+                                                      MulOpFact_f(
+                                                        Factor_f(
+                                                          FactorList_var(
+                                                            Designator_v(
+                                                             bodovi
+                                                            ) [Designator_v]
+                                                          ) [FactorList_var]
+                                                        ) [Factor_f]
+                                                      ) [MulOpFact_f]
+                                                    ) [Term]
+                                                  ) [AddopTermList_t]
+                                                ) [Expr_a]
+                                              ) [Statement_pre]
+                                            ) [StatementList_s]
+                                            Statement_pre(
+                                              Expr_a(
+                                                AddopTermList_t(
+                                                  Term(
+                                                    MulOpFact_f(
+                                                      Factor_f(
+                                                        FactorList_var(
+                                                          Designator_arr(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            Expr_a(
+                                                              AddopTermList_t(
+                                                                Term(
+                                                                  MulOpFact_f(
+                                                                    Factor_f(
+                                                                      FactorList_n(
+                                                                       2
+                                                                      ) [FactorList_n]
+                                                                    ) [Factor_f]
+                                                                  ) [MulOpFact_f]
+                                                                ) [Term]
+                                                              ) [AddopTermList_t]
+                                                            ) [Expr_a]
+                                                          ) [Designator_arr]
+                                                        ) [FactorList_var]
+                                                      ) [Factor_f]
+                                                    ) [MulOpFact_f]
+                                                  ) [Term]
+                                                ) [AddopTermList_t]
+                                              ) [Expr_a]
+                                            ) [Statement_pre]
+                                          ) [StatementList_s]
+                                          Statement_ds(
+                                            DesignatorStatement_ass(
+                                              Designator_v(
+                                               nizch
+                                              ) [Designator_v]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Expr_a(
+                                                AddopTermList_t(
+                                                  Term(
+                                                    MulOpFact_f(
+                                                      Factor_f(
+                                                        FactorList_new_coll(
+                                                          Type(
+                                                           char
+                                                          ) [Type]
+                                                          Expr_a(
+                                                            AddopTermList_t(
+                                                              Term(
+                                                                MulOpFact_f(
+                                                                  Factor_f(
+                                                                    FactorList_n(
+                                                                     3
+                                                                    ) [FactorList_n]
+                                                                  ) [Factor_f]
+                                                                ) [MulOpFact_f]
+                                                              ) [Term]
+                                                            ) [AddopTermList_t]
+                                                          ) [Expr_a]
+                                                        ) [FactorList_new_coll]
+                                                      ) [Factor_f]
+                                                    ) [MulOpFact_f]
+                                                  ) [Term]
+                                                ) [AddopTermList_t]
+                                              ) [Expr_a]
+                                            ) [DesignatorStatement_ass]
+                                          ) [Statement_ds]
+                                        ) [StatementList_s]
+                                        Statement_ds(
+                                          DesignatorStatement_ass(
+                                            Designator_arr(
+                                              DesignatorName(
+                                               nizch
+                                              ) [DesignatorName]
+                                              Expr_a(
+                                                AddopTermList_t(
+                                                  Term(
+                                                    MulOpFact_f(
+                                                      Factor_f(
+                                                        FactorList_n(
+                                                         0
+                                                        ) [FactorList_n]
+                                                      ) [Factor_f]
+                                                    ) [MulOpFact_f]
+                                                  ) [Term]
+                                                ) [AddopTermList_t]
+                                              ) [Expr_a]
+                                            ) [Designator_arr]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr_a(
+                                              AddopTermList_t(
+                                                Term(
+                                                  MulOpFact_f(
+                                                    Factor_f(
+                                                      FactorList_c(
+                                                       a
+                                                      ) [FactorList_c]
+                                                    ) [Factor_f]
+                                                  ) [MulOpFact_f]
+                                                ) [Term]
+                                              ) [AddopTermList_t]
+                                            ) [Expr_a]
+                                          ) [DesignatorStatement_ass]
+                                        ) [Statement_ds]
+                                      ) [StatementList_s]
+                                      Statement_ds(
+                                        DesignatorStatement_ass(
+                                          Designator_arr(
+                                            DesignatorName(
+                                             nizch
+                                            ) [DesignatorName]
+                                            Expr_a(
+                                              AddopTermList_t(
+                                                Term(
+                                                  MulOpFact_f(
+                                                    Factor_f(
+                                                      FactorList_var(
+                                                        Designator_v(
+                                                         jedan
+                                                        ) [Designator_v]
+                                                      ) [FactorList_var]
+                                                    ) [Factor_f]
+                                                  ) [MulOpFact_f]
+                                                ) [Term]
+                                              ) [AddopTermList_t]
+                                            ) [Expr_a]
+                                          ) [Designator_arr]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr_a(
+                                            AddopTermList_t(
+                                              Term(
+                                                MulOpFact_f(
+                                                  Factor_f(
+                                                    FactorList_c(
+                                                     b
+                                                    ) [FactorList_c]
+                                                  ) [Factor_f]
+                                                ) [MulOpFact_f]
+                                              ) [Term]
+                                            ) [AddopTermList_t]
+                                          ) [Expr_a]
+                                        ) [DesignatorStatement_ass]
+                                      ) [Statement_ds]
+                                    ) [StatementList_s]
+                                    Statement_ds(
+                                      DesignatorStatement_ass(
+                                        Designator_arr(
+                                          DesignatorName(
+                                           nizch
+                                          ) [DesignatorName]
+                                          Expr_a(
+                                            AddopTermList_at(
+                                              AddopTermList_t(
+                                                Term(
+                                                  MulOpFact_f(
+                                                    Factor_f(
+                                                      FactorList_var(
+                                                        Designator_v(
+                                                         pet
+                                                        ) [Designator_v]
+                                                      ) [FactorList_var]
+                                                    ) [Factor_f]
+                                                  ) [MulOpFact_f]
+                                                ) [Term]
+                                              ) [AddopTermList_t]
+                                              Addop_minus(
+                                              ) [Addop_minus]
+                                              Term(
+                                                MulOpFact_f(
+                                                  Factor_f(
+                                                    FactorList_n(
+                                                     3
+                                                    ) [FactorList_n]
+                                                  ) [Factor_f]
+                                                ) [MulOpFact_f]
+                                              ) [Term]
+                                            ) [AddopTermList_at]
+                                          ) [Expr_a]
+                                        ) [Designator_arr]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr_a(
+                                          AddopTermList_t(
+                                            Term(
+                                              MulOpFact_f(
+                                                Factor_f(
+                                                  FactorList_c(
+                                                   c
+                                                  ) [FactorList_c]
+                                                ) [Factor_f]
+                                              ) [MulOpFact_f]
+                                            ) [Term]
+                                          ) [AddopTermList_t]
+                                        ) [Expr_a]
+                                      ) [DesignatorStatement_ass]
+                                    ) [Statement_ds]
+                                  ) [StatementList_s]
+                                  Statement_pre(
+                                    Expr_a(
+                                      AddopTermList_t(
+                                        Term(
+                                          MulOpFact_f(
+                                            Factor_f(
+                                              FactorList_var(
+                                                Designator_arr(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                  Expr_a(
+                                                    AddopTermList_t(
+                                                      Term(
+                                                        MulOpFact_f(
+                                                          Factor_f(
+                                                            FactorList_n(
+                                                             1
+                                                            ) [FactorList_n]
+                                                          ) [Factor_f]
+                                                        ) [MulOpFact_f]
+                                                      ) [Term]
+                                                    ) [AddopTermList_t]
+                                                  ) [Expr_a]
+                                                ) [Designator_arr]
+                                              ) [FactorList_var]
+                                            ) [Factor_f]
+                                          ) [MulOpFact_f]
+                                        ) [Term]
+                                      ) [AddopTermList_t]
+                                    ) [Expr_a]
+                                  ) [Statement_pre]
+                                ) [StatementList_s]
+                                Statement_pre(
+                                  Expr_a(
+                                    AddopTermList_t(
+                                      Term(
+                                        MulOpFact_f(
+                                          Factor_f(
+                                            FactorList_var(
+                                              Designator_arr(
+                                                DesignatorName(
+                                                 nizch
+                                                ) [DesignatorName]
+                                                Expr_a(
+                                                  AddopTermList_t(
+                                                    Term(
+                                                      MulOpFact_mf(
+                                                        MulOpFact_f(
+                                                          Factor_f(
+                                                            FactorList_var(
+                                                              Designator_v(
+                                                               jedan
+                                                              ) [Designator_v]
+                                                            ) [FactorList_var]
+                                                          ) [Factor_f]
+                                                        ) [MulOpFact_f]
+                                                        Mulop_mul(
+                                                        ) [Mulop_mul]
+                                                        Factor_f(
+                                                          FactorList_n(
+                                                           2
+                                                          ) [FactorList_n]
+                                                        ) [Factor_f]
+                                                      ) [MulOpFact_mf]
+                                                    ) [Term]
+                                                  ) [AddopTermList_t]
+                                                ) [Expr_a]
+                                              ) [Designator_arr]
+                                            ) [FactorList_var]
+                                          ) [Factor_f]
+                                        ) [MulOpFact_f]
+                                      ) [Term]
+                                    ) [AddopTermList_t]
+                                  ) [Expr_a]
+                                ) [Statement_pre]
+                              ) [StatementList_s]
+                              Statement_ds(
+                                DesignatorStatement_ass(
+                                  Designator_v(
+                                   bodovi
+                                  ) [Designator_v]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr_a(
+                                    AddopTermList_at(
+                                      AddopTermList_at(
+                                        AddopTermList_t(
+                                          Term(
+                                            MulOpFact_f(
+                                              Factor_f(
+                                                FactorList_var(
+                                                  Designator_v(
+                                                   bodovi
+                                                  ) [Designator_v]
+                                                ) [FactorList_var]
+                                              ) [Factor_f]
+                                            ) [MulOpFact_f]
+                                          ) [Term]
+                                        ) [AddopTermList_t]
+                                        Addop_plus(
+                                        ) [Addop_plus]
+                                        Term(
+                                          MulOpFact_mf(
+                                            MulOpFact_f(
+                                              Factor_f(
+                                                FactorList_expr(
+                                                  Expr_a(
+                                                    AddopTermList_at(
+                                                      AddopTermList_t(
+                                                        Term(
+                                                          MulOpFact_mf(
+                                                            MulOpFact_f(
+                                                              Factor_f(
+                                                                FactorList_var(
+                                                                  Designator_v(
+                                                                   pet
+                                                                  ) [Designator_v]
+                                                                ) [FactorList_var]
+                                                              ) [Factor_f]
+                                                            ) [MulOpFact_f]
+                                                            Mulop_mul(
+                                                            ) [Mulop_mul]
+                                                            Factor_f(
+                                                              FactorList_var(
+                                                                Designator_v(
+                                                                 jedan
+                                                                ) [Designator_v]
+                                                              ) [FactorList_var]
+                                                            ) [Factor_f]
+                                                          ) [MulOpFact_mf]
+                                                        ) [Term]
+                                                      ) [AddopTermList_t]
+                                                      Addop_minus(
+                                                      ) [Addop_minus]
+                                                      Term(
+                                                        MulOpFact_f(
+                                                          Factor_f(
+                                                            FactorList_n(
+                                                             1
+                                                            ) [FactorList_n]
+                                                          ) [Factor_f]
+                                                        ) [MulOpFact_f]
+                                                      ) [Term]
+                                                    ) [AddopTermList_at]
+                                                  ) [Expr_a]
+                                                ) [FactorList_expr]
+                                              ) [Factor_f]
+                                            ) [MulOpFact_f]
+                                            Mulop_mul(
+                                            ) [Mulop_mul]
+                                            Factor_f(
+                                              FactorList_var(
+                                                Designator_v(
+                                                 bodovi
+                                                ) [Designator_v]
+                                              ) [FactorList_var]
+                                            ) [Factor_f]
+                                          ) [MulOpFact_mf]
+                                        ) [Term]
+                                      ) [AddopTermList_at]
+                                      Addop_minus(
+                                      ) [Addop_minus]
+                                      Term(
+                                        MulOpFact_f(
+                                          Factor_f(
+                                            FactorList_expr(
+                                              Expr_a(
+                                                AddopTermList_at(
+                                                  AddopTermList_at(
+                                                    AddopTermList_t(
+                                                      Term(
+                                                        MulOpFact_mf(
+                                                          MulOpFact_f(
+                                                            Factor_f(
+                                                              FactorList_n(
+                                                               3
+                                                              ) [FactorList_n]
+                                                            ) [Factor_f]
+                                                          ) [MulOpFact_f]
+                                                          Mulop_rem(
+                                                          ) [Mulop_rem]
+                                                          Factor_f(
+                                                            FactorList_n(
+                                                             2
+                                                            ) [FactorList_n]
+                                                          ) [Factor_f]
+                                                        ) [MulOpFact_mf]
+                                                      ) [Term]
+                                                    ) [AddopTermList_t]
+                                                    Addop_plus(
+                                                    ) [Addop_plus]
+                                                    Term(
+                                                      MulOpFact_mf(
+                                                        MulOpFact_f(
+                                                          Factor_f(
+                                                            FactorList_n(
+                                                             3
+                                                            ) [FactorList_n]
+                                                          ) [Factor_f]
+                                                        ) [MulOpFact_f]
+                                                        Mulop_mul(
+                                                        ) [Mulop_mul]
+                                                        Factor_f(
+                                                          FactorList_n(
+                                                           2
+                                                          ) [FactorList_n]
+                                                        ) [Factor_f]
+                                                      ) [MulOpFact_mf]
+                                                    ) [Term]
+                                                  ) [AddopTermList_at]
+                                                  Addop_minus(
+                                                  ) [Addop_minus]
+                                                  Term(
+                                                    MulOpFact_f(
+                                                      Factor_f(
+                                                        FactorList_n(
+                                                         3
+                                                        ) [FactorList_n]
+                                                      ) [Factor_f]
+                                                    ) [MulOpFact_f]
+                                                  ) [Term]
+                                                ) [AddopTermList_at]
+                                              ) [Expr_a]
+                                            ) [FactorList_expr]
+                                          ) [Factor_f]
+                                        ) [MulOpFact_f]
+                                      ) [Term]
+                                    ) [AddopTermList_at]
+                                  ) [Expr_a]
+                                ) [DesignatorStatement_ass]
+                              ) [Statement_ds]
+                            ) [StatementList_s]
+                            Statement_pre(
+                              Expr_a(
+                                AddopTermList_t(
+                                  Term(
+                                    MulOpFact_f(
+                                      Factor_f(
+                                        FactorList_var(
+                                          Designator_v(
+                                           bodovi
+                                          ) [Designator_v]
+                                        ) [FactorList_var]
+                                      ) [Factor_f]
+                                    ) [MulOpFact_f]
+                                  ) [Term]
+                                ) [AddopTermList_t]
+                              ) [Expr_a]
+                            ) [Statement_pre]
+                          ) [StatementList_s]
+                          Statement_rd(
+                            Designator_v(
+                             bodovi
+                            ) [Designator_v]
+                          ) [Statement_rd]
+                        ) [StatementList_s]
+                        Statement_pre(
+                          Expr_a(
+                            AddopTermList_t(
+                              Term(
+                                MulOpFact_f(
+                                  Factor_f(
+                                    FactorList_var(
+                                      Designator_v(
+                                       bodovi
+                                      ) [Designator_v]
+                                    ) [FactorList_var]
+                                  ) [Factor_f]
+                                ) [MulOpFact_f]
+                              ) [Term]
+                            ) [AddopTermList_t]
+                          ) [Expr_a]
+                        ) [Statement_pre]
+                      ) [StatementList_s]
+                      Statement_ds(
+                        DesignatorStatement_inc(
+                          Designator_v(
+                           bodovi
+                          ) [Designator_v]
+                        ) [DesignatorStatement_inc]
+                      ) [Statement_ds]
+                    ) [StatementList_s]
+                    Statement_ds(
+                      DesignatorStatement_err(
+                      ) [DesignatorStatement_err]
+                    ) [Statement_ds]
+                  ) [StatementList_s]
+                  Statement_ds(
+                    DesignatorStatement_ass(
+                      Designator_v(
+                       bodovi
+                      ) [Designator_v]
+                      Assignop(
+                      ) [Assignop]
+                      Expr_a(
+                        AddopTermList_t(
+                          Term(
+                            MulOpFact_mf(
+                              MulOpFact_f(
+                                Factor_f(
+                                  FactorList_var(
+                                    Designator_v(
+                                     bodovi
+                                    ) [Designator_v]
+                                  ) [FactorList_var]
+                                ) [Factor_f]
+                              ) [MulOpFact_f]
+                              Mulop_mul(
+                              ) [Mulop_mul]
+                              Factor_f(
+                                FactorList_n(
+                                 2
+                                ) [FactorList_n]
+                              ) [Factor_f]
+                            ) [MulOpFact_mf]
+                          ) [Term]
+                        ) [AddopTermList_t]
+                      ) [Expr_a]
+                    ) [DesignatorStatement_ass]
+                  ) [Statement_ds]
+                ) [StatementList_s]
+                Statement_ds(
+                  DesignatorStatement_dec(
+                    Designator_v(
+                     bodovi
+                    ) [Designator_v]
+                  ) [DesignatorStatement_dec]
+                ) [Statement_ds]
+              ) [StatementList_s]
+              Statement_ds(
+                DesignatorStatement_err(
+                ) [DesignatorStatement_err]
+              ) [Statement_ds]
+            ) [StatementList_s]
+            Statement_pre(
+              Expr_a(
+                AddopTermList_t(
+                  Term(
+                    MulOpFact_f(
+                      Factor_f(
+                        FactorList_var(
+                          Designator_v(
+                           bodovi
+                          ) [Designator_v]
+                        ) [FactorList_var]
+                      ) [Factor_f]
+                    ) [MulOpFact_f]
+                  ) [Term]
+                ) [AddopTermList_t]
+              ) [Expr_a]
+            ) [Statement_pre]
+          ) [StatementList_s]
+          Statement_pre(
+            Expr_a(
+              AddopTermList_t(
+                Term(
+                  MulOpFact_f(
+                    Factor_f(
+                      FactorList_c(
+                       +
+                      ) [FactorList_c]
+                    ) [Factor_f]
+                  ) [MulOpFact_f]
+                ) [Term]
+              ) [AddopTermList_t]
+            ) [Expr_a]
+          ) [Statement_pre]
+        ) [StatementList_s]
+        Statement_ds(
+          DesignatorStatement_err(
+          ) [DesignatorStatement_err]
+        ) [Statement_ds]
+      ) [StatementList_s]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  18:18:46,407 - =====================================================================
+INFO  18:18:46,417 - =====================================================================
+ERROR 18:18:46,418 - Parsiranje NIJE uspesno zavrseno!

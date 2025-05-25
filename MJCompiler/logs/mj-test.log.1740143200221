@@ -1,0 +1,24 @@
+INFO  13:35:17,795 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:35:18,351 - #2 program
+INFO  13:35:18,352 - #43 test302
+INFO  13:35:18,352 - #43 int
+INFO  13:35:18,362 - #43 a
+INFO  13:35:18,370 - #8 ,
+INFO  13:35:18,370 - #43 int
+INFO  13:35:18,370 - #43 b
+ERROR 13:35:18,370 - 
+Sintaksna greska na liniji 2
+INFO  13:35:18,371 - #26 .
+INFO  13:35:18,371 - #8 ,
+INFO  13:35:18,371 - #43 int
+INFO  13:35:18,372 - #43 c
+INFO  13:35:18,372 - #6 ;
+INFO  13:35:18,372 - #3 {
+INFO  13:35:18,372 - #11 void
+INFO  13:35:18,372 - #43 main
+INFO  13:35:18,373 - #12 (
+INFO  13:35:18,373 - #13 )
+INFO  13:35:18,373 - #3 {
+INFO  13:35:18,373 - #4 }
+INFO  13:35:18,373 - #4 }
+ERROR 13:35:18,374 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9

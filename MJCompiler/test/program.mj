@@ -1,0 +1,14 @@
+program Test
+
+{
+	
+	void main() int i;
+	{
+		i = 4;
+		do{
+			print(i);
+		} while(i < 10, i++);
+		
+	}
+}
+

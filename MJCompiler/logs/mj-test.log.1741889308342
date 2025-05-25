@@ -1,0 +1,311 @@
+INFO  19:08:17,582 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:08:17,643 - #2 program
+INFO  19:08:17,643 - #43 Test
+INFO  19:08:17,643 - #5 const
+INFO  19:08:17,645 - #43 int
+INFO  19:08:17,645 - #43 pi
+INFO  19:08:17,645 - #7 =
+INFO  19:08:17,646 - #44 3
+INFO  19:08:17,646 - #8 ,
+INFO  19:08:17,647 - #43 g
+INFO  19:08:17,647 - #7 =
+INFO  19:08:17,647 - #44 11
+INFO  19:08:17,647 - #6 ;
+INFO  19:08:17,648 - #43 char
+INFO  19:08:17,649 - #43 x
+INFO  19:08:17,649 - #8 ,
+INFO  19:08:17,649 - #43 y
+INFO  19:08:17,649 - #9 [
+INFO  19:08:17,649 - #10 ]
+INFO  19:08:17,649 - #6 ;
+INFO  19:08:17,650 - #5 const
+INFO  19:08:17,651 - #43 bool
+INFO  19:08:17,651 - #43 t
+INFO  19:08:17,652 - #7 =
+INFO  19:08:17,652 - #45 1
+INFO  19:08:17,652 - #6 ;
+INFO  19:08:17,652 - #3 {
+INFO  19:08:17,652 - #11 void
+INFO  19:08:17,653 - #43 main
+INFO  19:08:17,653 - #12 (
+INFO  19:08:17,653 - #43 int
+INFO  19:08:17,653 - #43 fp1
+INFO  19:08:17,654 - #13 )
+INFO  19:08:17,655 - #43 int
+INFO  19:08:17,657 - #43 a
+INFO  19:08:17,658 - #8 ,
+INFO  19:08:17,658 - #43 b
+INFO  19:08:17,658 - #9 [
+INFO  19:08:17,658 - #10 ]
+INFO  19:08:17,658 - #6 ;
+INFO  19:08:17,658 - #43 int
+INFO  19:08:17,659 - #43 x
+INFO  19:08:17,659 - #9 [
+INFO  19:08:17,659 - #10 ]
+INFO  19:08:17,659 - #8 ,
+INFO  19:08:17,659 - #43 y
+INFO  19:08:17,659 - #6 ;
+INFO  19:08:17,659 - #43 char
+INFO  19:08:17,659 - #43 eol
+INFO  19:08:17,659 - #6 ;
+INFO  19:08:17,659 - #3 {
+INFO  19:08:17,659 - #4 }
+INFO  19:08:17,660 - #43 bool
+INFO  19:08:17,662 - #43 m1
+INFO  19:08:17,662 - #12 (
+INFO  19:08:17,662 - #43 int
+INFO  19:08:17,663 - #43 fp1
+INFO  19:08:17,663 - #8 ,
+INFO  19:08:17,663 - #43 char
+INFO  19:08:17,663 - #43 fp2
+INFO  19:08:17,663 - #9 [
+INFO  19:08:17,663 - #10 ]
+INFO  19:08:17,663 - #8 ,
+INFO  19:08:17,663 - #43 bool
+INFO  19:08:17,664 - #43 fp3
+INFO  19:08:17,664 - #13 )
+INFO  19:08:17,664 - #43 int
+INFO  19:08:17,664 - #43 a
+INFO  19:08:17,664 - #8 ,
+INFO  19:08:17,664 - #43 b
+INFO  19:08:17,664 - #9 [
+INFO  19:08:17,664 - #10 ]
+INFO  19:08:17,664 - #6 ;
+INFO  19:08:17,664 - #43 int
+INFO  19:08:17,665 - #43 x
+INFO  19:08:17,665 - #9 [
+INFO  19:08:17,665 - #10 ]
+INFO  19:08:17,665 - #8 ,
+INFO  19:08:17,665 - #43 y
+INFO  19:08:17,665 - #6 ;
+INFO  19:08:17,665 - #43 char
+INFO  19:08:17,665 - #43 eol
+INFO  19:08:17,665 - #6 ;
+INFO  19:08:17,665 - #3 {
+INFO  19:08:17,665 - #4 }
+INFO  19:08:17,666 - #4 }
+INFO  19:08:17,671 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_con(
+        ConVarDecList_e(
+        ) [ConVarDecList_e]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pi
+            Const_n(
+             3
+            ) [Const_n]
+          ) [ConstDecl]
+          ConstDeclMore_comma(
+            ConstDecl(
+             g
+              Const_n(
+               11
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_e(
+            ) [ConstDeclMore_e]
+          ) [ConstDeclMore_comma]
+        ) [ConstDeclList]
+      ) [ConVarDecList_con]
+      VarDeclList_v(
+        Type(
+         char
+        ) [Type]
+        VarDecl_var(
+         x
+        ) [VarDecl_var]
+        VarDeclMore_v(
+          VarDecl_arr(
+           y
+          ) [VarDecl_arr]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_v]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_v(
+           main
+          ) [ReturnType_v]
+          FormPars_fmore(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             fp1
+            ) [FormPar_var]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormPars_fmore]
+        ) [MethodSignature]
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_v(
+              NeedVarDeclList_e(
+              ) [NeedVarDeclList_e]
+              VarDeclList_v(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_var(
+                 a
+                ) [VarDecl_var]
+                VarDeclMore_v(
+                  VarDecl_arr(
+                   b
+                  ) [VarDecl_arr]
+                  VarDeclMore_e(
+                  ) [VarDeclMore_e]
+                ) [VarDeclMore_v]
+              ) [VarDeclList_v]
+            ) [NeedVarDeclList_v]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_arr(
+               x
+              ) [VarDecl_arr]
+              VarDeclMore_v(
+                VarDecl_var(
+                 y
+                ) [VarDecl_var]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             char
+            ) [Type]
+            VarDecl_var(
+             eol
+            ) [VarDecl_var]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_t(
+          Type(
+           bool
+          ) [Type]
+         m1
+        ) [ReturnType_t]
+        FormPars_fmore(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           fp1
+          ) [FormPar_var]
+          FormParsMore_c(
+            FormPar_arr(
+              Type(
+               char
+              ) [Type]
+             fp2
+            ) [FormPar_arr]
+            FormParsMore_c(
+              FormPar_var(
+                Type(
+                 bool
+                ) [Type]
+               fp3
+              ) [FormPar_var]
+              FormParsMore_e(
+              ) [FormParsMore_e]
+            ) [FormParsMore_c]
+          ) [FormParsMore_c]
+        ) [FormPars_fmore]
+      ) [MethodSignature]
+      NeedVarDeclList_v(
+        NeedVarDeclList_v(
+          NeedVarDeclList_v(
+            NeedVarDeclList_e(
+            ) [NeedVarDeclList_e]
+            VarDeclList_v(
+              Type(
+               int
+              ) [Type]
+              VarDecl_var(
+               a
+              ) [VarDecl_var]
+              VarDeclMore_v(
+                VarDecl_arr(
+                 b
+                ) [VarDecl_arr]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclMore_v]
+            ) [VarDeclList_v]
+          ) [NeedVarDeclList_v]
+          VarDeclList_v(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_v(
+              VarDecl_var(
+               y
+              ) [VarDecl_var]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclMore_v]
+          ) [VarDeclList_v]
+        ) [NeedVarDeclList_v]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           eol
+          ) [VarDecl_var]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList_v]
+      ) [NeedVarDeclList_v]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  19:08:17,672 - =====================================================================
+ERROR 19:08:17,681 - Program nema adekvatnu main metodu. na liniji 1
+INFO  19:08:17,681 - =====================================================================
+ERROR 19:08:17,682 - Parsiranje NIJE uspesno zavrseno!

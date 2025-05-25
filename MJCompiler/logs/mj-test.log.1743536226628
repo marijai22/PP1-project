@@ -1,0 +1,156 @@
+INFO  21:36:15,159 - Compiling source file: C:\Users\Dimitrije Ignjatovic\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:36:15,232 - #2 program
+INFO  21:36:15,232 - #43 Test
+INFO  21:36:15,232 - #5 const
+INFO  21:36:15,233 - #43 int
+INFO  21:36:15,233 - #43 pi
+INFO  21:36:15,234 - #7 =
+INFO  21:36:15,234 - #44 3
+INFO  21:36:15,234 - #8 ,
+INFO  21:36:15,235 - #43 g
+INFO  21:36:15,236 - #7 =
+INFO  21:36:15,236 - #44 11
+INFO  21:36:15,236 - #6 ;
+INFO  21:36:15,237 - #43 char
+INFO  21:36:15,238 - #43 x
+INFO  21:36:15,238 - #8 ,
+INFO  21:36:15,238 - #43 y
+INFO  21:36:15,239 - #9 [
+INFO  21:36:15,239 - #10 ]
+INFO  21:36:15,239 - #6 ;
+INFO  21:36:15,240 - #43 set
+INFO  21:36:15,241 - #43 s1
+INFO  21:36:15,242 - #6 ;
+INFO  21:36:15,242 - #5 const
+INFO  21:36:15,243 - #43 bool
+INFO  21:36:15,243 - #43 t
+INFO  21:36:15,243 - #7 =
+INFO  21:36:15,243 - #45 1
+INFO  21:36:15,243 - #6 ;
+INFO  21:36:15,243 - #3 {
+INFO  21:36:15,243 - #43 int
+INFO  21:36:15,244 - #43 main
+INFO  21:36:15,244 - #12 (
+INFO  21:36:15,245 - #13 )
+INFO  21:36:15,245 - #3 {
+INFO  21:36:15,247 - #4 }
+INFO  21:36:15,248 - #11 void
+INFO  21:36:15,249 - #43 main
+INFO  21:36:15,249 - #12 (
+INFO  21:36:15,249 - #13 )
+INFO  21:36:15,249 - #3 {
+INFO  21:36:15,249 - #4 }
+INFO  21:36:15,249 - #4 }
+INFO  21:36:15,254 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ConVarDecList_con(
+    ConVarDecList_var(
+      ConVarDecList_var(
+        ConVarDecList_con(
+          ConVarDecList_e(
+          ) [ConVarDecList_e]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pi
+              Const_n(
+               3
+              ) [Const_n]
+            ) [ConstDecl]
+            ConstDeclMore_comma(
+              ConstDecl(
+               g
+                Const_n(
+                 11
+                ) [Const_n]
+              ) [ConstDecl]
+              ConstDeclMore_e(
+              ) [ConstDeclMore_e]
+            ) [ConstDeclMore_comma]
+          ) [ConstDeclList]
+        ) [ConVarDecList_con]
+        VarDeclList_v(
+          Type(
+           char
+          ) [Type]
+          VarDecl_var(
+           x
+          ) [VarDecl_var]
+          VarDeclMore_v(
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_v]
+        ) [VarDeclList_v]
+      ) [ConVarDecList_var]
+      VarDeclList_v(
+        Type(
+         set
+        ) [Type]
+        VarDecl_var(
+         s1
+        ) [VarDecl_var]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList_v]
+    ) [ConVarDecList_var]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       t
+        Const_b(
+         1
+        ) [Const_b]
+      ) [ConstDecl]
+      ConstDeclMore_e(
+      ) [ConstDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDecList_con]
+  MethodDeclList_m(
+    MethodDeclList_m(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodSignature(
+          ReturnType_t(
+            Type(
+             int
+            ) [Type]
+           main
+          ) [ReturnType_t]
+          FormPars_e(
+          ) [FormPars_e]
+        ) [MethodSignature]
+        NeedVarDeclList_e(
+        ) [NeedVarDeclList_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_m]
+    MethodDecl(
+      MethodSignature(
+        ReturnType_v(
+         main
+        ) [ReturnType_v]
+        FormPars_e(
+        ) [FormPars_e]
+      ) [MethodSignature]
+      NeedVarDeclList_e(
+      ) [NeedVarDeclList_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_m]
+) [Program]
+INFO  21:36:15,254 - =====================================================================
+ERROR 21:36:15,263 - Program nema adekvatnu main metodu. na liniji 1
+INFO  21:36:15,263 - =====================================================================
+ERROR 21:36:15,264 - Parsiranje NIJE uspesno zavrseno!
